@@ -93,3 +93,57 @@ L'opérateur à appliquer :
 
 ###### value
 Valeur à comparer
+
+## Tableau de données
+
+**type_batiment**
+
+Type de bâtiment
+
+
+| maison individuelle |
+| appartement         |
+| batiment collectif  |
+
+**type_logement**
+
+Type de logement
+
+| neuf     |
+| existant |
+
+**energie**
+
+Énergie de chauffage
+
+| electricite |
+| combustible |
+
+**zone_climatique**
+
+Zone climatique
+
+| h1 |
+| h2 |
+| h3 |
+
+**type_vmc**
+
+Type de VMC
+
+| type a |
+| type b |
+
+**type_caisson / type_extracteur**
+
+Type de caisson / Type d'extracteur
+
+| basse consommation |
+| standard           |
+
+**type_point_singulier**
+
+Type de point singulier
+
+| echangeur a plaque |
+| autre              |
