@@ -1,0 +1,24 @@
+{
+  "os": "BAR-TH-164",
+  "link": "http://atee.fr/sites/default/files/bar-th-164_fsah_v31.pdf",
+  "name": "Rénovation globale d'une maison individuelle (France métropolotaine)",
+  "sector": "Bâtiment résidentiel",
+  "content": "",
+  "amount": {
+    "bases": [{
+      "name": "Montant en kWh cumac",
+      "values": [{
+        "value": 18
+      }]
+    }],
+    "factors": [{
+      "name": "Surface habitable (m²)",
+      "param": "facteur_s"
+    }, {
+      "name": "Différence entre la consommation conventionnelle initiale et la consommation conventionnelle du projet (kWh)",
+      "param": "facteur_cef"
+    }],
+    "terms": []
+  },
+  "appendix": ""
+}
