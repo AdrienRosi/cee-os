@@ -1,0 +1,270 @@
+{
+  "os": "BAR-EQ-115",
+  "link": "http://atee.fr/sites/default/files/bar-eq-115_-_a_compter_du_01-01-2019_0.pdf",
+  "name": "Dispositif d’affichage et d’interprétation des consommations d’énergie",
+  "sector": "Bâtiment résidentiel",
+  "content": "",
+  "amount": {
+    "bases": [{
+      "name": "Montant en kWh cumac",
+      "values": [{
+        "constraints": [{
+          "param": "type_batiment",
+          "operator": "equal",
+          "value": "maison individuelle"
+        }, {
+          "param": "zone_climatique",
+          "operator": "equal",
+          "value": "h1"
+        }],
+        "value": 4400
+      }, {
+        "constraints": [{
+          "param": "type_batiment",
+          "operator": "equal",
+          "value": "maison individuelle"
+        }, {
+          "param": "zone_climatique",
+          "operator": "equal",
+          "value": "h2"
+        }],
+        "value": 3700
+      }, {
+        "constraints": [{
+          "param": "type_batiment",
+          "operator": "equal",
+          "value": "maison individuelle"
+        }, {
+          "param": "zone_climatique",
+          "operator": "equal",
+          "value": "h3"
+        }],
+        "value": 2700
+      }, {
+        "constraints": [{
+          "param": "type_batiment",
+          "operator": "equal",
+          "value": "appartement"
+        }, {
+          "param": "zone_climatique",
+          "operator": "equal",
+          "value": "h1"
+        }],
+        "value": 2600
+      }, {
+        "constraints": [{
+          "param": "type_batiment",
+          "operator": "equal",
+          "value": "appartement"
+        }, {
+          "param": "zone_climatique",
+          "operator": "equal",
+          "value": "h2"
+        }],
+        "value": 2200
+      }, {
+        "constraints": [{
+          "param": "type_batiment",
+          "operator": "equal",
+          "value": "appartement"
+        }, {
+          "param": "zone_climatique",
+          "operator": "equal",
+          "value": "h3"
+        }],
+        "value": 1700
+      }]
+    }],
+    "factors": [{
+      "name": "Option « suivi du confort »",
+      "values": [{
+        "constraints": [{
+          "param": "suivi_confort",
+          "operator": "equal",
+          "value": true
+        }],
+        "value": 1
+      }, {
+        "constraints": [{
+          "param": "suivi_confort",
+          "operator": "equal",
+          "value": false
+        }],
+        "value": 0.8
+      }]
+    }, {
+      "name": "Facteur correctif selon la surface habitable",
+      "constraints": [{
+        "param": "type_batiment",
+        "operator": "equal",
+        "value": "maison individuelle"
+      }],
+      "values": [{
+        "contraints": [{
+          "param": "surface_habitable",
+          "operator": "lessThan",
+          "value": 35
+        }],
+        "value": 0.3
+      }, {
+        "contraints": [{
+          "param": "surface_habitable",
+          "operator": "greaterThanOrEqual",
+          "value": 35
+        }, {
+          "param": "surface_habitable",
+          "operator": "lessThan",
+          "value": 60
+        }],
+        "value": 0.5
+      }, {
+        "contraints": [{
+          "param": "surface_habitable",
+          "operator": "greaterThanOrEqual",
+          "value": 60
+        }, {
+          "param": "surface_habitable",
+          "operator": "lessThan",
+          "value": 70
+        }],
+        "value": 0.6
+      }, {
+        "contraints": [{
+          "param": "surface_habitable",
+          "operator": "greaterThanOrEqual",
+          "value": 70
+        }, {
+          "param": "surface_habitable",
+          "operator": "lessThan",
+          "value": 90
+        }],
+        "value": 0.7
+      }, {
+        "contraints": [{
+          "param": "surface_habitable",
+          "operator": "greaterThanOrEqual",
+          "value": 90
+        }, {
+          "param": "surface_habitable",
+          "operator": "lessThan",
+          "value": 110
+        }],
+        "value": 1
+      }, {
+        "contraints": [{
+          "param": "surface_habitable",
+          "operator": "greaterThanOrEqual",
+          "value": 110
+        }, {
+          "param": "surface_habitable",
+          "operator": "lessThanOrEqual",
+          "value": 130
+        }],
+        "value": 1.1
+      }, {
+        "contraints": [{
+          "param": "surface_habitable",
+          "operator": "greaterThan",
+          "value": 130
+        }],
+        "value": 1.6
+      }]
+    }, {
+      "name": "Facteur correctif selon la surface habitable",
+      "constraints": [{
+        "param": "type_batiment",
+        "operator": "equal",
+        "value": "appartement"
+      }],
+      "values": [{
+        "contraints": [{
+          "param": "surface_habitable",
+          "operator": "lessThan",
+          "value": 35
+        }],
+        "value": 0.5
+      }, {
+        "contraints": [{
+          "param": "surface_habitable",
+          "operator": "greaterThanOrEqual",
+          "value": 35
+        }, {
+          "param": "surface_habitable",
+          "operator": "lessThan",
+          "value": 60
+        }],
+        "value": 0.7
+      }, {
+        "contraints": [{
+          "param": "surface_habitable",
+          "operator": "greaterThanOrEqual",
+          "value": 60
+        }, {
+          "param": "surface_habitable",
+          "operator": "lessThan",
+          "value": 70
+        }],
+        "value": 1
+      }, {
+        "contraints": [{
+          "param": "surface_habitable",
+          "operator": "greaterThanOrEqual",
+          "value": 70
+        }, {
+          "param": "surface_habitable",
+          "operator": "lessThan",
+          "value": 90
+        }],
+        "value": 1.2
+      }, {
+        "contraints": [{
+          "param": "surface_habitable",
+          "operator": "greaterThanOrEqual",
+          "value": 90
+        }, {
+          "param": "surface_habitable",
+          "operator": "lessThan",
+          "value": 110
+        }],
+        "value": 1.5
+      }, {
+        "contraints": [{
+          "param": "surface_habitable",
+          "operator": "greaterThanOrEqual",
+          "value": 110
+        }, {
+          "param": "surface_habitable",
+          "operator": "lessThanOrEqual",
+          "value": 130
+        }],
+        "value": 1.9
+      }, {
+        "contraints": [{
+          "param": "surface_habitable",
+          "operator": "greaterThan",
+          "value": 130
+        }],
+        "value": 2.5
+      }]
+    }],
+    "terms": [{
+      "name": "Part fixe à ajouter en kWh cumac",
+      "values": [{
+        "constraints": [{
+          "param": "type_batiment",
+          "operator": "equal",
+          "value": "maison individuelle"
+        }],
+        "value": 650
+      }, {
+        "constraints": [{
+          "param": "type_batiment",
+          "operator": "equal",
+          "value": "appartement"
+        }],
+        "value": 410
+      }]
+    }]
+  },
+  "appendix": ""
+}
