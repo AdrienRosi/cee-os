@@ -1,1 +1,40 @@
-{"os":"BAR-TH-123","link":"http://atee.fr/sites/default/files/bar-th-123_0.pdf","name":"Optimiseur de relance en chauffage collectif","sector":"Bâtiment résidentiel","content":"","amount":{"factors":[{"name":"Nombre d'appartements","param":"nombre"}],"bases":[{"name":"Montant en kWh cumac par appartement","values":[{"constraints":[{"param":"zone_climatique","operator":"equal","value":"H1"}],"value":12400},{"constraints":[{"param":"zone_climatique","operator":"equal","value":"H2"}],"value":10100},{"constraints":[{"param":"zone_climatique","operator":"equal","value":"H3"}],"value":6700}]}]},"appendix":""}
+{
+  "os": "BAR-TH-123",
+  "link": "http://atee.fr/sites/default/files/bar-th-123_0.pdf",
+  "name": "Optimiseur de relance en chauffage collectif",
+  "sector": "Bâtiment résidentiel",
+  "content": "",
+  "amount": {
+    "bases": [{
+      "name": "Montant en kWh cumac par appartement",
+      "values": [{
+        "constraints": [{
+          "param": "zone_climatique",
+          "operator": "equal",
+          "value": "H1"
+        }],
+        "value": 12400
+      }, {
+        "constraints": [{
+          "param": "zone_climatique",
+          "operator": "equal",
+          "value": "H2"
+        }],
+        "value": 10100
+      }, {
+        "constraints": [{
+          "param": "zone_climatique",
+          "operator": "equal",
+          "value": "H3"
+        }],
+        "value": 6700
+      }]
+    }],
+    "factors": [{
+      "name": "Nombre d'appartements",
+      "param": "nombre"
+    }],
+    "terms": []
+  },
+  "appendix": ""
+}

@@ -1,1 +1,37 @@
-{"os":"BAR-TH-143","link":"http://atee.fr/sites/default/files/bar-th-143_2.pdf","name":"Système solaire combiné (France métropolitaine)","sector":"Bâtiment résidentiel","content":"","amount":{"factors":[],"bases":[{"name":"Montant en kWh cumac","values":[{"constraints":[{"param":"zone_climatique","operator":"equal","value":"H1"}],"value":134800},{"constraints":[{"param":"zone_climatique","operator":"equal","value":"H2"}],"value":121000},{"constraints":[{"param":"zone_climatique","operator":"equal","value":"H3"}],"value":100500}]}]},"appendix":""}
+{
+  "os": "BAR-TH-143",
+  "link": "http://atee.fr/sites/default/files/bar-th-143_2.pdf",
+  "name": "Système solaire combiné (France métropolitaine)",
+  "sector": "Bâtiment résidentiel",
+  "content": "",
+  "amount": {
+    "bases": [{
+      "name": "Montant en kWh cumac",
+      "values": [{
+        "constraints": [{
+          "param": "zone_climatique",
+          "operator": "equal",
+          "value": "H1"
+        }],
+        "value": 134800
+      }, {
+        "constraints": [{
+          "param": "zone_climatique",
+          "operator": "equal",
+          "value": "H2"
+        }],
+        "value": 121000
+      }, {
+        "constraints": [{
+          "param": "zone_climatique",
+          "operator": "equal",
+          "value": "H3"
+        }],
+        "value": 100500
+      }]
+    }],
+    "factors": [],
+    "terms": []
+  },
+  "appendix": ""
+}

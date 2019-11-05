@@ -1,1 +1,21 @@
-{"os":"BAR-TH-121","link":"http://atee.fr/sites/default/files/bar-th-121_mod_a27-2_a_compter_du_01-04-2018_1.pdf","name":"Système de comptage individuel d’énergie de chauffage","sector":"Bâtiment résidentiel","content":"","amount":{"factors":[{"name":"Nombre d'appartements","param":"nombre"}],"bases":[{"name":"Montant en kWh cumac par appartement","values":[{"value":11500}]}]},"appendix":""}
+{
+  "os": "BAR-TH-121",
+  "link": "http://atee.fr/sites/default/files/bar-th-121_mod_a27-2_a_compter_du_01-04-2018_1.pdf",
+  "name": "Système de comptage individuel d’énergie de chauffage",
+  "sector": "Bâtiment résidentiel",
+  "content": "",
+  "amount": {
+    "bases": [{
+      "name": "Montant en kWh cumac par appartement",
+      "values": [{
+        "value": 11500
+      }]
+    }],
+    "factors": [{
+      "name": "Nombre d'appartements",
+      "param": "nombre"
+    }],
+    "terms": []
+  },
+  "appendix": ""
+}

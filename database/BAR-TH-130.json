@@ -1,1 +1,24 @@
-{"os":"BAR-TH-130","link":"http://atee.fr/sites/default/files/bar-th-130_1.pdf","name":"surperformance pour un bâtiment neuf","sector":"Bâtiment résidentiel","content":"","amount":{"factors":[{"name":"Consommation conventionnelle d'énergie maximale déduite de la consommation conventionnelle d'énergie du bâtiment","param":"cef"},{"name":"Surface thermique","param":"surface"}],"bases":[{"name":"Montant de certificats en kWh cumac","values":[{"value":17.984}]}]},"appendix":""}
+{
+  "os": "BAR-TH-130",
+  "link": "http://atee.fr/sites/default/files/bar-th-130_1.pdf",
+  "name": "surperformance pour un bâtiment neuf",
+  "sector": "Bâtiment résidentiel",
+  "content": "",
+  "amount": {
+    "bases": [{
+      "name": "Montant de certificats en kWh cumac",
+      "values": [{
+        "value": 17.984
+      }]
+    }],
+    "factors": [{
+      "name": "Consommation conventionnelle d'énergie maximale déduite de la consommation conventionnelle d'énergie du bâtiment",
+      "param": "cef"
+    }, {
+      "name": "Surface thermique",
+      "param": "surface"
+    }],
+    "terms": []
+  },
+  "appendix": ""
+}

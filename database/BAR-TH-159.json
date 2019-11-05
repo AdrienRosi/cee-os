@@ -1,1 +1,843 @@
-{"os":"BAR-TH-159","link":"http://atee.fr/sites/default/files/bar-th-159_2.pdf","name":"Pompe à chaleur hybride individuelle","sector":"Bâtiment résidentiel","content":"","amount":{"factors":[{"name":"Facteur correctif selon la surface chauffée par la pompe à chaleur installée","values":[{"contraints":[{"param":"type_batiment","operator":"equal","value":"appartement"},{"param":"surface_chauffee","operator":"lessThan","value":35}],"value":0.5},{"contraints":[{"param":"type_batiment","operator":"equal","value":"appartement"},{"param":"surface_chauffee","operator":"greaterThanOrEqual","value":35},{"param":"surface_chauffee","operator":"lessThan","value":60}],"value":0.7},{"contraints":[{"param":"type_batiment","operator":"equal","value":"appartement"},{"param":"surface_chauffee","operator":"greaterThanOrEqual","value":60},{"param":"surface_chauffee","operator":"lessThan","value":70}],"value":1},{"contraints":[{"param":"type_batiment","operator":"equal","value":"appartement"},{"param":"surface_chauffee","operator":"greaterThanOrEqual","value":70},{"param":"surface_chauffee","operator":"lessThan","value":90}],"value":1.2},{"contraints":[{"param":"type_batiment","operator":"equal","value":"appartement"},{"param":"surface_chauffee","operator":"greaterThanOrEqual","value":90},{"param":"surface_chauffee","operator":"lessThan","value":110}],"value":1.5},{"contraints":[{"param":"type_batiment","operator":"equal","value":"appartement"},{"param":"surface_chauffee","operator":"greaterThanOrEqual","value":110},{"param":"surface_chauffee","operator":"lessThanOrEqual","value":130}],"value":1.9},{"contraints":[{"param":"type_batiment","operator":"equal","value":"appartement"},{"param":"surface_chauffee","operator":"greaterThan","value":130}],"value":2.5},{"contraints":[{"param":"type_batiment","operator":"equal","value":"maison individuelle"},{"param":"surface_chauffee","operator":"lessThan","value":70}],"value":0.5},{"contraints":[{"param":"type_batiment","operator":"equal","value":"maison individuelle"},{"param":"surface_chauffee","operator":"greaterThanOrEqual","value":70},{"param":"surface_chauffee","operator":"lessThan","value":90}],"value":0.7},{"contraints":[{"param":"type_batiment","operator":"equal","value":"maison individuelle"},{"param":"surface_chauffee","operator":"greaterThanOrEqual","value":90},{"param":"surface_chauffee","operator":"lessThan","value":110}],"value":1},{"contraints":[{"param":"type_batiment","operator":"equal","value":"maison individuelle"},{"param":"surface_chauffee","operator":"greaterThanOrEqual","value":110},{"param":"surface_chauffee","operator":"lessThanOrEqual","value":130}],"value":1.1},{"contraints":[{"param":"type_batiment","operator":"equal","value":"maison individuelle"},{"param":"surface_chauffee","operator":"greaterThan","value":130}],"value":1.6}]}],"bases":[{"name":"Montant unitaire kWh cumac","values":[{"constraints":[{"param":"type_batiment","operator":"equal","value":"appartement"},{"param":"zone_climatique","operator":"equal","value":"h1"},{"param":"efficacite_energetique","operator":"greaterThanOrEqual","value":111},{"param":"efficacite_energetique","operator":"lessThan","value":120}],"value":39600},{"constraints":[{"param":"type_batiment","operator":"equal","value":"appartement"},{"param":"zone_climatique","operator":"equal","value":"h2"},{"param":"efficacite_energetique","operator":"greaterThanOrEqual","value":111},{"param":"efficacite_energetique","operator":"lessThan","value":120}],"value":33900},{"constraints":[{"param":"type_batiment","operator":"equal","value":"appartement"},{"param":"zone_climatique","operator":"equal","value":"h3"},{"param":"efficacite_energetique","operator":"greaterThanOrEqual","value":111},{"param":"efficacite_energetique","operator":"lessThan","value":120}],"value":25600},{"constraints":[{"param":"type_batiment","operator":"equal","value":"appartement"},{"param":"zone_climatique","operator":"equal","value":"h1"},{"param":"efficacite_energetique","operator":"greaterThanOrEqual","value":120},{"param":"efficacite_energetique","operator":"lessThan","value":130}],"value":48200},{"constraints":[{"param":"type_batiment","operator":"equal","value":"appartement"},{"param":"zone_climatique","operator":"equal","value":"h2"},{"param":"efficacite_energetique","operator":"greaterThanOrEqual","value":120},{"param":"efficacite_energetique","operator":"lessThan","value":130}],"value":41300},{"constraints":[{"param":"type_batiment","operator":"equal","value":"appartement"},{"param":"zone_climatique","operator":"equal","value":"h3"},{"param":"efficacite_energetique","operator":"greaterThanOrEqual","value":120},{"param":"efficacite_energetique","operator":"lessThan","value":130}],"value":31200},{"constraints":[{"param":"type_batiment","operator":"equal","value":"appartement"},{"param":"zone_climatique","operator":"equal","value":"h1"},{"param":"efficacite_energetique","operator":"greaterThanOrEqual","value":130},{"param":"efficacite_energetique","operator":"lessThan","value":140}],"value":55900},{"constraints":[{"param":"type_batiment","operator":"equal","value":"appartement"},{"param":"zone_climatique","operator":"equal","value":"h2"},{"param":"efficacite_energetique","operator":"greaterThanOrEqual","value":130},{"param":"efficacite_energetique","operator":"lessThan","value":140}],"value":47900},{"constraints":[{"param":"type_batiment","operator":"equal","value":"appartement"},{"param":"zone_climatique","operator":"equal","value":"h3"},{"param":"efficacite_energetique","operator":"greaterThanOrEqual","value":130},{"param":"efficacite_energetique","operator":"lessThan","value":140}],"value":36200},{"constraints":[{"param":"type_batiment","operator":"equal","value":"appartement"},{"param":"zone_climatique","operator":"equal","value":"h1"},{"param":"efficacite_energetique","operator":"greaterThanOrEqual","value":140},{"param":"efficacite_energetique","operator":"lessThan","value":150}],"value":62600},{"constraints":[{"param":"type_batiment","operator":"equal","value":"appartement"},{"param":"zone_climatique","operator":"equal","value":"h2"},{"param":"efficacite_energetique","operator":"greaterThanOrEqual","value":140},{"param":"efficacite_energetique","operator":"lessThan","value":150}],"value":53600},{"constraints":[{"param":"type_batiment","operator":"equal","value":"appartement"},{"param":"zone_climatique","operator":"equal","value":"h3"},{"param":"efficacite_energetique","operator":"greaterThanOrEqual","value":140},{"param":"efficacite_energetique","operator":"lessThan","value":150}],"value":40500},{"constraints":[{"param":"type_batiment","operator":"equal","value":"appartement"},{"param":"zone_climatique","operator":"equal","value":"h1"},{"param":"efficacite_energetique","operator":"greaterThanOrEqual","value":150},{"param":"efficacite_energetique","operator":"lessThan","value":160}],"value":68400},{"constraints":[{"param":"type_batiment","operator":"equal","value":"appartement"},{"param":"zone_climatique","operator":"equal","value":"h2"},{"param":"efficacite_energetique","operator":"greaterThanOrEqual","value":150},{"param":"efficacite_energetique","operator":"lessThan","value":160}],"value":58600},{"constraints":[{"param":"type_batiment","operator":"equal","value":"appartement"},{"param":"zone_climatique","operator":"equal","value":"h3"},{"param":"efficacite_energetique","operator":"greaterThanOrEqual","value":150},{"param":"efficacite_energetique","operator":"lessThan","value":160}],"value":44200},{"constraints":[{"param":"type_batiment","operator":"equal","value":"appartement"},{"param":"zone_climatique","operator":"equal","value":"h1"},{"param":"efficacite_energetique","operator":"greaterThanOrEqual","value":160}],"value":73400},{"constraints":[{"param":"type_batiment","operator":"equal","value":"appartement"},{"param":"zone_climatique","operator":"equal","value":"h2"},{"param":"efficacite_energetique","operator":"greaterThanOrEqual","value":160}],"value":62900},{"constraints":[{"param":"type_batiment","operator":"equal","value":"appartement"},{"param":"zone_climatique","operator":"equal","value":"h3"},{"param":"efficacite_energetique","operator":"greaterThanOrEqual","value":160}],"value":47500},{"constraints":[{"param":"type_batiment","operator":"equal","value":"maison individuelle"},{"param":"zone_climatique","operator":"equal","value":"h1"},{"param":"efficacite_energetique","operator":"greaterThanOrEqual","value":111},{"param":"efficacite_energetique","operator":"lessThan","value":120}],"value":74100},{"constraints":[{"param":"type_batiment","operator":"equal","value":"maison individuelle"},{"param":"zone_climatique","operator":"equal","value":"h2"},{"param":"efficacite_energetique","operator":"greaterThanOrEqual","value":111},{"param":"efficacite_energetique","operator":"lessThan","value":120}],"value":62800},{"constraints":[{"param":"type_batiment","operator":"equal","value":"maison individuelle"},{"param":"zone_climatique","operator":"equal","value":"h3"},{"param":"efficacite_energetique","operator":"greaterThanOrEqual","value":111},{"param":"efficacite_energetique","operator":"lessThan","value":120}],"value":45600},{"constraints":[{"param":"type_batiment","operator":"equal","value":"maison individuelle"},{"param":"zone_climatique","operator":"equal","value":"h1"},{"param":"efficacite_energetique","operator":"greaterThanOrEqual","value":120},{"param":"efficacite_energetique","operator":"lessThan","value":130}],"value":90300},{"constraints":[{"param":"type_batiment","operator":"equal","value":"maison individuelle"},{"param":"zone_climatique","operator":"equal","value":"h2"},{"param":"efficacite_energetique","operator":"greaterThanOrEqual","value":120},{"param":"efficacite_energetique","operator":"lessThan","value":130}],"value":76500},{"constraints":[{"param":"type_batiment","operator":"equal","value":"maison individuelle"},{"param":"zone_climatique","operator":"equal","value":"h3"},{"param":"efficacite_energetique","operator":"greaterThanOrEqual","value":120},{"param":"efficacite_energetique","operator":"lessThan","value":130}],"value":55400},{"constraints":[{"param":"type_batiment","operator":"equal","value":"maison individuelle"},{"param":"zone_climatique","operator":"equal","value":"h1"},{"param":"efficacite_energetique","operator":"greaterThanOrEqual","value":130},{"param":"efficacite_energetique","operator":"lessThan","value":140}],"value":104800},{"constraints":[{"param":"type_batiment","operator":"equal","value":"maison individuelle"},{"param":"zone_climatique","operator":"equal","value":"h2"},{"param":"efficacite_energetique","operator":"greaterThanOrEqual","value":130},{"param":"efficacite_energetique","operator":"lessThan","value":140}],"value":88800},{"constraints":[{"param":"type_batiment","operator":"equal","value":"maison individuelle"},{"param":"zone_climatique","operator":"equal","value":"h3"},{"param":"efficacite_energetique","operator":"greaterThanOrEqual","value":130},{"param":"efficacite_energetique","operator":"lessThan","value":140}],"value":64400},{"constraints":[{"param":"type_batiment","operator":"equal","value":"maison individuelle"},{"param":"zone_climatique","operator":"equal","value":"h1"},{"param":"efficacite_energetique","operator":"greaterThanOrEqual","value":140},{"param":"efficacite_energetique","operator":"lessThan","value":150}],"value":117200},{"constraints":[{"param":"type_batiment","operator":"equal","value":"maison individuelle"},{"param":"zone_climatique","operator":"equal","value":"h2"},{"param":"efficacite_energetique","operator":"greaterThanOrEqual","value":140},{"param":"efficacite_energetique","operator":"lessThan","value":150}],"value":99400},{"constraints":[{"param":"type_batiment","operator":"equal","value":"maison individuelle"},{"param":"zone_climatique","operator":"equal","value":"h3"},{"param":"efficacite_energetique","operator":"greaterThanOrEqual","value":140},{"param":"efficacite_energetique","operator":"lessThan","value":150}],"value":72000},{"constraints":[{"param":"type_batiment","operator":"equal","value":"maison individuelle"},{"param":"zone_climatique","operator":"equal","value":"h1"},{"param":"efficacite_energetique","operator":"greaterThanOrEqual","value":150},{"param":"efficacite_energetique","operator":"lessThan","value":160}],"value":128000},{"constraints":[{"param":"type_batiment","operator":"equal","value":"maison individuelle"},{"param":"zone_climatique","operator":"equal","value":"h2"},{"param":"efficacite_energetique","operator":"greaterThanOrEqual","value":150},{"param":"efficacite_energetique","operator":"lessThan","value":160}],"value":108500},{"constraints":[{"param":"type_batiment","operator":"equal","value":"maison individuelle"},{"param":"zone_climatique","operator":"equal","value":"h3"},{"param":"efficacite_energetique","operator":"greaterThanOrEqual","value":150},{"param":"efficacite_energetique","operator":"lessThan","value":160}],"value":78700},{"constraints":[{"param":"type_batiment","operator":"equal","value":"maison individuelle"},{"param":"zone_climatique","operator":"equal","value":"h1"},{"param":"efficacite_energetique","operator":"greaterThanOrEqual","value":160}],"value":137500},{"constraints":[{"param":"type_batiment","operator":"equal","value":"maison individuelle"},{"param":"zone_climatique","operator":"equal","value":"h2"},{"param":"efficacite_energetique","operator":"greaterThanOrEqual","value":160}],"value":116600},{"constraints":[{"param":"type_batiment","operator":"equal","value":"maison individuelle"},{"param":"zone_climatique","operator":"equal","value":"h3"},{"param":"efficacite_energetique","operator":"greaterThanOrEqual","value":160}],"value":84500}]}]},"appendix":""}
+{
+  "os": "BAR-TH-159",
+  "link": "http://atee.fr/sites/default/files/bar-th-159_2.pdf",
+  "name": "Pompe à chaleur hybride individuelle",
+  "sector": "Bâtiment résidentiel",
+  "content": "",
+  "amount": {
+    "bases": [{
+      "name": "Montant unitaire kWh cumac",
+      "values": [{
+        "constraints": [{
+          "param": "type_batiment",
+          "operator": "equal",
+          "value": "appartement"
+        }, {
+          "param": "zone_climatique",
+          "operator": "equal",
+          "value": "h1"
+        }, {
+          "param": "efficacite_energetique",
+          "operator": "greaterThanOrEqual",
+          "value": 111
+        }, {
+          "param": "efficacite_energetique",
+          "operator": "lessThan",
+          "value": 120
+        }],
+        "value": 39600
+      }, {
+        "constraints": [{
+          "param": "type_batiment",
+          "operator": "equal",
+          "value": "appartement"
+        }, {
+          "param": "zone_climatique",
+          "operator": "equal",
+          "value": "h2"
+        }, {
+          "param": "efficacite_energetique",
+          "operator": "greaterThanOrEqual",
+          "value": 111
+        }, {
+          "param": "efficacite_energetique",
+          "operator": "lessThan",
+          "value": 120
+        }],
+        "value": 33900
+      }, {
+        "constraints": [{
+          "param": "type_batiment",
+          "operator": "equal",
+          "value": "appartement"
+        }, {
+          "param": "zone_climatique",
+          "operator": "equal",
+          "value": "h3"
+        }, {
+          "param": "efficacite_energetique",
+          "operator": "greaterThanOrEqual",
+          "value": 111
+        }, {
+          "param": "efficacite_energetique",
+          "operator": "lessThan",
+          "value": 120
+        }],
+        "value": 25600
+      }, {
+        "constraints": [{
+          "param": "type_batiment",
+          "operator": "equal",
+          "value": "appartement"
+        }, {
+          "param": "zone_climatique",
+          "operator": "equal",
+          "value": "h1"
+        }, {
+          "param": "efficacite_energetique",
+          "operator": "greaterThanOrEqual",
+          "value": 120
+        }, {
+          "param": "efficacite_energetique",
+          "operator": "lessThan",
+          "value": 130
+        }],
+        "value": 48200
+      }, {
+        "constraints": [{
+          "param": "type_batiment",
+          "operator": "equal",
+          "value": "appartement"
+        }, {
+          "param": "zone_climatique",
+          "operator": "equal",
+          "value": "h2"
+        }, {
+          "param": "efficacite_energetique",
+          "operator": "greaterThanOrEqual",
+          "value": 120
+        }, {
+          "param": "efficacite_energetique",
+          "operator": "lessThan",
+          "value": 130
+        }],
+        "value": 41300
+      }, {
+        "constraints": [{
+          "param": "type_batiment",
+          "operator": "equal",
+          "value": "appartement"
+        }, {
+          "param": "zone_climatique",
+          "operator": "equal",
+          "value": "h3"
+        }, {
+          "param": "efficacite_energetique",
+          "operator": "greaterThanOrEqual",
+          "value": 120
+        }, {
+          "param": "efficacite_energetique",
+          "operator": "lessThan",
+          "value": 130
+        }],
+        "value": 31200
+      }, {
+        "constraints": [{
+          "param": "type_batiment",
+          "operator": "equal",
+          "value": "appartement"
+        }, {
+          "param": "zone_climatique",
+          "operator": "equal",
+          "value": "h1"
+        }, {
+          "param": "efficacite_energetique",
+          "operator": "greaterThanOrEqual",
+          "value": 130
+        }, {
+          "param": "efficacite_energetique",
+          "operator": "lessThan",
+          "value": 140
+        }],
+        "value": 55900
+      }, {
+        "constraints": [{
+          "param": "type_batiment",
+          "operator": "equal",
+          "value": "appartement"
+        }, {
+          "param": "zone_climatique",
+          "operator": "equal",
+          "value": "h2"
+        }, {
+          "param": "efficacite_energetique",
+          "operator": "greaterThanOrEqual",
+          "value": 130
+        }, {
+          "param": "efficacite_energetique",
+          "operator": "lessThan",
+          "value": 140
+        }],
+        "value": 47900
+      }, {
+        "constraints": [{
+          "param": "type_batiment",
+          "operator": "equal",
+          "value": "appartement"
+        }, {
+          "param": "zone_climatique",
+          "operator": "equal",
+          "value": "h3"
+        }, {
+          "param": "efficacite_energetique",
+          "operator": "greaterThanOrEqual",
+          "value": 130
+        }, {
+          "param": "efficacite_energetique",
+          "operator": "lessThan",
+          "value": 140
+        }],
+        "value": 36200
+      }, {
+        "constraints": [{
+          "param": "type_batiment",
+          "operator": "equal",
+          "value": "appartement"
+        }, {
+          "param": "zone_climatique",
+          "operator": "equal",
+          "value": "h1"
+        }, {
+          "param": "efficacite_energetique",
+          "operator": "greaterThanOrEqual",
+          "value": 140
+        }, {
+          "param": "efficacite_energetique",
+          "operator": "lessThan",
+          "value": 150
+        }],
+        "value": 62600
+      }, {
+        "constraints": [{
+          "param": "type_batiment",
+          "operator": "equal",
+          "value": "appartement"
+        }, {
+          "param": "zone_climatique",
+          "operator": "equal",
+          "value": "h2"
+        }, {
+          "param": "efficacite_energetique",
+          "operator": "greaterThanOrEqual",
+          "value": 140
+        }, {
+          "param": "efficacite_energetique",
+          "operator": "lessThan",
+          "value": 150
+        }],
+        "value": 53600
+      }, {
+        "constraints": [{
+          "param": "type_batiment",
+          "operator": "equal",
+          "value": "appartement"
+        }, {
+          "param": "zone_climatique",
+          "operator": "equal",
+          "value": "h3"
+        }, {
+          "param": "efficacite_energetique",
+          "operator": "greaterThanOrEqual",
+          "value": 140
+        }, {
+          "param": "efficacite_energetique",
+          "operator": "lessThan",
+          "value": 150
+        }],
+        "value": 40500
+      }, {
+        "constraints": [{
+          "param": "type_batiment",
+          "operator": "equal",
+          "value": "appartement"
+        }, {
+          "param": "zone_climatique",
+          "operator": "equal",
+          "value": "h1"
+        }, {
+          "param": "efficacite_energetique",
+          "operator": "greaterThanOrEqual",
+          "value": 150
+        }, {
+          "param": "efficacite_energetique",
+          "operator": "lessThan",
+          "value": 160
+        }],
+        "value": 68400
+      }, {
+        "constraints": [{
+          "param": "type_batiment",
+          "operator": "equal",
+          "value": "appartement"
+        }, {
+          "param": "zone_climatique",
+          "operator": "equal",
+          "value": "h2"
+        }, {
+          "param": "efficacite_energetique",
+          "operator": "greaterThanOrEqual",
+          "value": 150
+        }, {
+          "param": "efficacite_energetique",
+          "operator": "lessThan",
+          "value": 160
+        }],
+        "value": 58600
+      }, {
+        "constraints": [{
+          "param": "type_batiment",
+          "operator": "equal",
+          "value": "appartement"
+        }, {
+          "param": "zone_climatique",
+          "operator": "equal",
+          "value": "h3"
+        }, {
+          "param": "efficacite_energetique",
+          "operator": "greaterThanOrEqual",
+          "value": 150
+        }, {
+          "param": "efficacite_energetique",
+          "operator": "lessThan",
+          "value": 160
+        }],
+        "value": 44200
+      }, {
+        "constraints": [{
+          "param": "type_batiment",
+          "operator": "equal",
+          "value": "appartement"
+        }, {
+          "param": "zone_climatique",
+          "operator": "equal",
+          "value": "h1"
+        }, {
+          "param": "efficacite_energetique",
+          "operator": "greaterThanOrEqual",
+          "value": 160
+        }],
+        "value": 73400
+      }, {
+        "constraints": [{
+          "param": "type_batiment",
+          "operator": "equal",
+          "value": "appartement"
+        }, {
+          "param": "zone_climatique",
+          "operator": "equal",
+          "value": "h2"
+        }, {
+          "param": "efficacite_energetique",
+          "operator": "greaterThanOrEqual",
+          "value": 160
+        }],
+        "value": 62900
+      }, {
+        "constraints": [{
+          "param": "type_batiment",
+          "operator": "equal",
+          "value": "appartement"
+        }, {
+          "param": "zone_climatique",
+          "operator": "equal",
+          "value": "h3"
+        }, {
+          "param": "efficacite_energetique",
+          "operator": "greaterThanOrEqual",
+          "value": 160
+        }],
+        "value": 47500
+      }, {
+        "constraints": [{
+          "param": "type_batiment",
+          "operator": "equal",
+          "value": "maison individuelle"
+        }, {
+          "param": "zone_climatique",
+          "operator": "equal",
+          "value": "h1"
+        }, {
+          "param": "efficacite_energetique",
+          "operator": "greaterThanOrEqual",
+          "value": 111
+        }, {
+          "param": "efficacite_energetique",
+          "operator": "lessThan",
+          "value": 120
+        }],
+        "value": 74100
+      }, {
+        "constraints": [{
+          "param": "type_batiment",
+          "operator": "equal",
+          "value": "maison individuelle"
+        }, {
+          "param": "zone_climatique",
+          "operator": "equal",
+          "value": "h2"
+        }, {
+          "param": "efficacite_energetique",
+          "operator": "greaterThanOrEqual",
+          "value": 111
+        }, {
+          "param": "efficacite_energetique",
+          "operator": "lessThan",
+          "value": 120
+        }],
+        "value": 62800
+      }, {
+        "constraints": [{
+          "param": "type_batiment",
+          "operator": "equal",
+          "value": "maison individuelle"
+        }, {
+          "param": "zone_climatique",
+          "operator": "equal",
+          "value": "h3"
+        }, {
+          "param": "efficacite_energetique",
+          "operator": "greaterThanOrEqual",
+          "value": 111
+        }, {
+          "param": "efficacite_energetique",
+          "operator": "lessThan",
+          "value": 120
+        }],
+        "value": 45600
+      }, {
+        "constraints": [{
+          "param": "type_batiment",
+          "operator": "equal",
+          "value": "maison individuelle"
+        }, {
+          "param": "zone_climatique",
+          "operator": "equal",
+          "value": "h1"
+        }, {
+          "param": "efficacite_energetique",
+          "operator": "greaterThanOrEqual",
+          "value": 120
+        }, {
+          "param": "efficacite_energetique",
+          "operator": "lessThan",
+          "value": 130
+        }],
+        "value": 90300
+      }, {
+        "constraints": [{
+          "param": "type_batiment",
+          "operator": "equal",
+          "value": "maison individuelle"
+        }, {
+          "param": "zone_climatique",
+          "operator": "equal",
+          "value": "h2"
+        }, {
+          "param": "efficacite_energetique",
+          "operator": "greaterThanOrEqual",
+          "value": 120
+        }, {
+          "param": "efficacite_energetique",
+          "operator": "lessThan",
+          "value": 130
+        }],
+        "value": 76500
+      }, {
+        "constraints": [{
+          "param": "type_batiment",
+          "operator": "equal",
+          "value": "maison individuelle"
+        }, {
+          "param": "zone_climatique",
+          "operator": "equal",
+          "value": "h3"
+        }, {
+          "param": "efficacite_energetique",
+          "operator": "greaterThanOrEqual",
+          "value": 120
+        }, {
+          "param": "efficacite_energetique",
+          "operator": "lessThan",
+          "value": 130
+        }],
+        "value": 55400
+      }, {
+        "constraints": [{
+          "param": "type_batiment",
+          "operator": "equal",
+          "value": "maison individuelle"
+        }, {
+          "param": "zone_climatique",
+          "operator": "equal",
+          "value": "h1"
+        }, {
+          "param": "efficacite_energetique",
+          "operator": "greaterThanOrEqual",
+          "value": 130
+        }, {
+          "param": "efficacite_energetique",
+          "operator": "lessThan",
+          "value": 140
+        }],
+        "value": 104800
+      }, {
+        "constraints": [{
+          "param": "type_batiment",
+          "operator": "equal",
+          "value": "maison individuelle"
+        }, {
+          "param": "zone_climatique",
+          "operator": "equal",
+          "value": "h2"
+        }, {
+          "param": "efficacite_energetique",
+          "operator": "greaterThanOrEqual",
+          "value": 130
+        }, {
+          "param": "efficacite_energetique",
+          "operator": "lessThan",
+          "value": 140
+        }],
+        "value": 88800
+      }, {
+        "constraints": [{
+          "param": "type_batiment",
+          "operator": "equal",
+          "value": "maison individuelle"
+        }, {
+          "param": "zone_climatique",
+          "operator": "equal",
+          "value": "h3"
+        }, {
+          "param": "efficacite_energetique",
+          "operator": "greaterThanOrEqual",
+          "value": 130
+        }, {
+          "param": "efficacite_energetique",
+          "operator": "lessThan",
+          "value": 140
+        }],
+        "value": 64400
+      }, {
+        "constraints": [{
+          "param": "type_batiment",
+          "operator": "equal",
+          "value": "maison individuelle"
+        }, {
+          "param": "zone_climatique",
+          "operator": "equal",
+          "value": "h1"
+        }, {
+          "param": "efficacite_energetique",
+          "operator": "greaterThanOrEqual",
+          "value": 140
+        }, {
+          "param": "efficacite_energetique",
+          "operator": "lessThan",
+          "value": 150
+        }],
+        "value": 117200
+      }, {
+        "constraints": [{
+          "param": "type_batiment",
+          "operator": "equal",
+          "value": "maison individuelle"
+        }, {
+          "param": "zone_climatique",
+          "operator": "equal",
+          "value": "h2"
+        }, {
+          "param": "efficacite_energetique",
+          "operator": "greaterThanOrEqual",
+          "value": 140
+        }, {
+          "param": "efficacite_energetique",
+          "operator": "lessThan",
+          "value": 150
+        }],
+        "value": 99400
+      }, {
+        "constraints": [{
+          "param": "type_batiment",
+          "operator": "equal",
+          "value": "maison individuelle"
+        }, {
+          "param": "zone_climatique",
+          "operator": "equal",
+          "value": "h3"
+        }, {
+          "param": "efficacite_energetique",
+          "operator": "greaterThanOrEqual",
+          "value": 140
+        }, {
+          "param": "efficacite_energetique",
+          "operator": "lessThan",
+          "value": 150
+        }],
+        "value": 72000
+      }, {
+        "constraints": [{
+          "param": "type_batiment",
+          "operator": "equal",
+          "value": "maison individuelle"
+        }, {
+          "param": "zone_climatique",
+          "operator": "equal",
+          "value": "h1"
+        }, {
+          "param": "efficacite_energetique",
+          "operator": "greaterThanOrEqual",
+          "value": 150
+        }, {
+          "param": "efficacite_energetique",
+          "operator": "lessThan",
+          "value": 160
+        }],
+        "value": 128000
+      }, {
+        "constraints": [{
+          "param": "type_batiment",
+          "operator": "equal",
+          "value": "maison individuelle"
+        }, {
+          "param": "zone_climatique",
+          "operator": "equal",
+          "value": "h2"
+        }, {
+          "param": "efficacite_energetique",
+          "operator": "greaterThanOrEqual",
+          "value": 150
+        }, {
+          "param": "efficacite_energetique",
+          "operator": "lessThan",
+          "value": 160
+        }],
+        "value": 108500
+      }, {
+        "constraints": [{
+          "param": "type_batiment",
+          "operator": "equal",
+          "value": "maison individuelle"
+        }, {
+          "param": "zone_climatique",
+          "operator": "equal",
+          "value": "h3"
+        }, {
+          "param": "efficacite_energetique",
+          "operator": "greaterThanOrEqual",
+          "value": 150
+        }, {
+          "param": "efficacite_energetique",
+          "operator": "lessThan",
+          "value": 160
+        }],
+        "value": 78700
+      }, {
+        "constraints": [{
+          "param": "type_batiment",
+          "operator": "equal",
+          "value": "maison individuelle"
+        }, {
+          "param": "zone_climatique",
+          "operator": "equal",
+          "value": "h1"
+        }, {
+          "param": "efficacite_energetique",
+          "operator": "greaterThanOrEqual",
+          "value": 160
+        }],
+        "value": 137500
+      }, {
+        "constraints": [{
+          "param": "type_batiment",
+          "operator": "equal",
+          "value": "maison individuelle"
+        }, {
+          "param": "zone_climatique",
+          "operator": "equal",
+          "value": "h2"
+        }, {
+          "param": "efficacite_energetique",
+          "operator": "greaterThanOrEqual",
+          "value": 160
+        }],
+        "value": 116600
+      }, {
+        "constraints": [{
+          "param": "type_batiment",
+          "operator": "equal",
+          "value": "maison individuelle"
+        }, {
+          "param": "zone_climatique",
+          "operator": "equal",
+          "value": "h3"
+        }, {
+          "param": "efficacite_energetique",
+          "operator": "greaterThanOrEqual",
+          "value": 160
+        }],
+        "value": 84500
+      }]
+    }],
+    "factors": [{
+      "name": "Facteur correctif selon la surface chauffée par la pompe à chaleur installée",
+      "values": [{
+        "contraints": [{
+          "param": "type_batiment",
+          "operator": "equal",
+          "value": "appartement"
+        }, {
+          "param": "surface_chauffee",
+          "operator": "lessThan",
+          "value": 35
+        }],
+        "value": 0.5
+      }, {
+        "contraints": [{
+          "param": "type_batiment",
+          "operator": "equal",
+          "value": "appartement"
+        }, {
+          "param": "surface_chauffee",
+          "operator": "greaterThanOrEqual",
+          "value": 35
+        }, {
+          "param": "surface_chauffee",
+          "operator": "lessThan",
+          "value": 60
+        }],
+        "value": 0.7
+      }, {
+        "contraints": [{
+          "param": "type_batiment",
+          "operator": "equal",
+          "value": "appartement"
+        }, {
+          "param": "surface_chauffee",
+          "operator": "greaterThanOrEqual",
+          "value": 60
+        }, {
+          "param": "surface_chauffee",
+          "operator": "lessThan",
+          "value": 70
+        }],
+        "value": 1
+      }, {
+        "contraints": [{
+          "param": "type_batiment",
+          "operator": "equal",
+          "value": "appartement"
+        }, {
+          "param": "surface_chauffee",
+          "operator": "greaterThanOrEqual",
+          "value": 70
+        }, {
+          "param": "surface_chauffee",
+          "operator": "lessThan",
+          "value": 90
+        }],
+        "value": 1.2
+      }, {
+        "contraints": [{
+          "param": "type_batiment",
+          "operator": "equal",
+          "value": "appartement"
+        }, {
+          "param": "surface_chauffee",
+          "operator": "greaterThanOrEqual",
+          "value": 90
+        }, {
+          "param": "surface_chauffee",
+          "operator": "lessThan",
+          "value": 110
+        }],
+        "value": 1.5
+      }, {
+        "contraints": [{
+          "param": "type_batiment",
+          "operator": "equal",
+          "value": "appartement"
+        }, {
+          "param": "surface_chauffee",
+          "operator": "greaterThanOrEqual",
+          "value": 110
+        }, {
+          "param": "surface_chauffee",
+          "operator": "lessThanOrEqual",
+          "value": 130
+        }],
+        "value": 1.9
+      }, {
+        "contraints": [{
+          "param": "type_batiment",
+          "operator": "equal",
+          "value": "appartement"
+        }, {
+          "param": "surface_chauffee",
+          "operator": "greaterThan",
+          "value": 130
+        }],
+        "value": 2.5
+      }, {
+        "contraints": [{
+          "param": "type_batiment",
+          "operator": "equal",
+          "value": "maison individuelle"
+        }, {
+          "param": "surface_chauffee",
+          "operator": "lessThan",
+          "value": 70
+        }],
+        "value": 0.5
+      }, {
+        "contraints": [{
+          "param": "type_batiment",
+          "operator": "equal",
+          "value": "maison individuelle"
+        }, {
+          "param": "surface_chauffee",
+          "operator": "greaterThanOrEqual",
+          "value": 70
+        }, {
+          "param": "surface_chauffee",
+          "operator": "lessThan",
+          "value": 90
+        }],
+        "value": 0.7
+      }, {
+        "contraints": [{
+          "param": "type_batiment",
+          "operator": "equal",
+          "value": "maison individuelle"
+        }, {
+          "param": "surface_chauffee",
+          "operator": "greaterThanOrEqual",
+          "value": 90
+        }, {
+          "param": "surface_chauffee",
+          "operator": "lessThan",
+          "value": 110
+        }],
+        "value": 1
+      }, {
+        "contraints": [{
+          "param": "type_batiment",
+          "operator": "equal",
+          "value": "maison individuelle"
+        }, {
+          "param": "surface_chauffee",
+          "operator": "greaterThanOrEqual",
+          "value": 110
+        }, {
+          "param": "surface_chauffee",
+          "operator": "lessThanOrEqual",
+          "value": 130
+        }],
+        "value": 1.1
+      }, {
+        "contraints": [{
+          "param": "type_batiment",
+          "operator": "equal",
+          "value": "maison individuelle"
+        }, {
+          "param": "surface_chauffee",
+          "operator": "greaterThan",
+          "value": 130
+        }],
+        "value": 1.6
+      }]
+    }],
+    "terms": []
+  },
+  "appendix": ""
+}

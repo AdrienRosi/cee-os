@@ -1,1 +1,256 @@
-{"os":"BAR-TH-141","link":"http://atee.fr/sites/default/files/bar-th-141_0.pdf","name":"Climatiseur performant (France d'outre-mer)","sector":"Bâtiment résidentiel","content":"","amount":{"factors":[],"bases":[{"name":"Montant en kWh cumac","values":[{"constraints":[{"param":"type_batiment","operator":"equal","value":"Maison individuelle"},{"param":"puissance","operator":"equal","value":2.05},{"param":"class","operator":"equal","value":"A"}],"value":2300},{"constraints":[{"param":"type_batiment","operator":"equal","value":"Maison individuelle"},{"param":"puissance","operator":"equal","value":2.05},{"param":"class","operator":"equal","value":"A+"}],"value":4100},{"constraints":[{"param":"type_batiment","operator":"equal","value":"Maison individuelle"},{"param":"puissance","operator":"equal","value":2.05},{"param":"class","operator":"equal","value":"A++"}],"value":5700},{"constraints":[{"param":"type_batiment","operator":"equal","value":"Maison individuelle"},{"param":"puissance","operator":"equal","value":2.05},{"param":"class","operator":"equal","value":"A+++"}],"value":10600},{"constraints":[{"param":"type_batiment","operator":"equal","value":"Maison individuelle"},{"param":"puissance","operator":"equal","value":2.64},{"param":"class","operator":"equal","value":"A"}],"value":2600},{"constraints":[{"param":"type_batiment","operator":"equal","value":"Maison individuelle"},{"param":"puissance","operator":"equal","value":2.64},{"param":"class","operator":"equal","value":"A+"}],"value":4800},{"constraints":[{"param":"type_batiment","operator":"equal","value":"Maison individuelle"},{"param":"puissance","operator":"equal","value":2.64},{"param":"class","operator":"equal","value":"A++"}],"value":6600},{"constraints":[{"param":"type_batiment","operator":"equal","value":"Maison individuelle"},{"param":"puissance","operator":"equal","value":2.64},{"param":"class","operator":"equal","value":"A+++"}],"value":12020},{"constraints":[{"param":"type_batiment","operator":"equal","value":"Appartement"},{"param":"puissance","operator":"equal","value":2.05},{"param":"class","operator":"equal","value":"A"}],"value":1300},{"constraints":[{"param":"type_batiment","operator":"equal","value":"Appartement"},{"param":"puissance","operator":"equal","value":2.05},{"param":"class","operator":"equal","value":"A+"}],"value":2500},{"constraints":[{"param":"type_batiment","operator":"equal","value":"Appartement"},{"param":"puissance","operator":"equal","value":2.05},{"param":"class","operator":"equal","value":"A++"}],"value":3400},{"constraints":[{"param":"type_batiment","operator":"equal","value":"Appartement"},{"param":"puissance","operator":"equal","value":2.05},{"param":"class","operator":"equal","value":"A+++"}],"value":6300},{"constraints":[{"param":"type_batiment","operator":"equal","value":"Appartement"},{"param":"puissance","operator":"equal","value":2.64},{"param":"class","operator":"equal","value":"A"}],"value":1600},{"constraints":[{"param":"type_batiment","operator":"equal","value":"Appartement"},{"param":"puissance","operator":"equal","value":2.64},{"param":"class","operator":"equal","value":"A+"}],"value":2900},{"constraints":[{"param":"type_batiment","operator":"equal","value":"Appartement"},{"param":"puissance","operator":"equal","value":2.64},{"param":"class","operator":"equal","value":"A++"}],"value":4000},{"constraints":[{"param":"type_batiment","operator":"equal","value":"Appartement"},{"param":"puissance","operator":"equal","value":2.64},{"param":"class","operator":"equal","value":"A+++"}],"value":7400}]}]},"appendix":""}
+{
+  "os": "BAR-TH-141",
+  "link": "http://atee.fr/sites/default/files/bar-th-141_0.pdf",
+  "name": "Climatiseur performant (France d'outre-mer)",
+  "sector": "Bâtiment résidentiel",
+  "content": "",
+  "amount": {
+    "bases": [{
+      "name": "Montant en kWh cumac",
+      "values": [{
+        "constraints": [{
+          "param": "type_batiment",
+          "operator": "equal",
+          "value": "Maison individuelle"
+        }, {
+          "param": "puissance",
+          "operator": "equal",
+          "value": 2.05
+        }, {
+          "param": "class",
+          "operator": "equal",
+          "value": "A"
+        }],
+        "value": 2300
+      }, {
+        "constraints": [{
+          "param": "type_batiment",
+          "operator": "equal",
+          "value": "Maison individuelle"
+        }, {
+          "param": "puissance",
+          "operator": "equal",
+          "value": 2.05
+        }, {
+          "param": "class",
+          "operator": "equal",
+          "value": "A+"
+        }],
+        "value": 4100
+      }, {
+        "constraints": [{
+          "param": "type_batiment",
+          "operator": "equal",
+          "value": "Maison individuelle"
+        }, {
+          "param": "puissance",
+          "operator": "equal",
+          "value": 2.05
+        }, {
+          "param": "class",
+          "operator": "equal",
+          "value": "A++"
+        }],
+        "value": 5700
+      }, {
+        "constraints": [{
+          "param": "type_batiment",
+          "operator": "equal",
+          "value": "Maison individuelle"
+        }, {
+          "param": "puissance",
+          "operator": "equal",
+          "value": 2.05
+        }, {
+          "param": "class",
+          "operator": "equal",
+          "value": "A+++"
+        }],
+        "value": 10600
+      }, {
+        "constraints": [{
+          "param": "type_batiment",
+          "operator": "equal",
+          "value": "Maison individuelle"
+        }, {
+          "param": "puissance",
+          "operator": "equal",
+          "value": 2.64
+        }, {
+          "param": "class",
+          "operator": "equal",
+          "value": "A"
+        }],
+        "value": 2600
+      }, {
+        "constraints": [{
+          "param": "type_batiment",
+          "operator": "equal",
+          "value": "Maison individuelle"
+        }, {
+          "param": "puissance",
+          "operator": "equal",
+          "value": 2.64
+        }, {
+          "param": "class",
+          "operator": "equal",
+          "value": "A+"
+        }],
+        "value": 4800
+      }, {
+        "constraints": [{
+          "param": "type_batiment",
+          "operator": "equal",
+          "value": "Maison individuelle"
+        }, {
+          "param": "puissance",
+          "operator": "equal",
+          "value": 2.64
+        }, {
+          "param": "class",
+          "operator": "equal",
+          "value": "A++"
+        }],
+        "value": 6600
+      }, {
+        "constraints": [{
+          "param": "type_batiment",
+          "operator": "equal",
+          "value": "Maison individuelle"
+        }, {
+          "param": "puissance",
+          "operator": "equal",
+          "value": 2.64
+        }, {
+          "param": "class",
+          "operator": "equal",
+          "value": "A+++"
+        }],
+        "value": 12020
+      }, {
+        "constraints": [{
+          "param": "type_batiment",
+          "operator": "equal",
+          "value": "Appartement"
+        }, {
+          "param": "puissance",
+          "operator": "equal",
+          "value": 2.05
+        }, {
+          "param": "class",
+          "operator": "equal",
+          "value": "A"
+        }],
+        "value": 1300
+      }, {
+        "constraints": [{
+          "param": "type_batiment",
+          "operator": "equal",
+          "value": "Appartement"
+        }, {
+          "param": "puissance",
+          "operator": "equal",
+          "value": 2.05
+        }, {
+          "param": "class",
+          "operator": "equal",
+          "value": "A+"
+        }],
+        "value": 2500
+      }, {
+        "constraints": [{
+          "param": "type_batiment",
+          "operator": "equal",
+          "value": "Appartement"
+        }, {
+          "param": "puissance",
+          "operator": "equal",
+          "value": 2.05
+        }, {
+          "param": "class",
+          "operator": "equal",
+          "value": "A++"
+        }],
+        "value": 3400
+      }, {
+        "constraints": [{
+          "param": "type_batiment",
+          "operator": "equal",
+          "value": "Appartement"
+        }, {
+          "param": "puissance",
+          "operator": "equal",
+          "value": 2.05
+        }, {
+          "param": "class",
+          "operator": "equal",
+          "value": "A+++"
+        }],
+        "value": 6300
+      }, {
+        "constraints": [{
+          "param": "type_batiment",
+          "operator": "equal",
+          "value": "Appartement"
+        }, {
+          "param": "puissance",
+          "operator": "equal",
+          "value": 2.64
+        }, {
+          "param": "class",
+          "operator": "equal",
+          "value": "A"
+        }],
+        "value": 1600
+      }, {
+        "constraints": [{
+          "param": "type_batiment",
+          "operator": "equal",
+          "value": "Appartement"
+        }, {
+          "param": "puissance",
+          "operator": "equal",
+          "value": 2.64
+        }, {
+          "param": "class",
+          "operator": "equal",
+          "value": "A+"
+        }],
+        "value": 2900
+      }, {
+        "constraints": [{
+          "param": "type_batiment",
+          "operator": "equal",
+          "value": "Appartement"
+        }, {
+          "param": "puissance",
+          "operator": "equal",
+          "value": 2.64
+        }, {
+          "param": "class",
+          "operator": "equal",
+          "value": "A++"
+        }],
+        "value": 4000
+      }, {
+        "constraints": [{
+          "param": "type_batiment",
+          "operator": "equal",
+          "value": "Appartement"
+        }, {
+          "param": "puissance",
+          "operator": "equal",
+          "value": 2.64
+        }, {
+          "param": "class",
+          "operator": "equal",
+          "value": "A+++"
+        }],
+        "value": 7400
+      }]
+    }],
+    "factors": [],
+    "terms": []
+  },
+  "appendix": ""
+}

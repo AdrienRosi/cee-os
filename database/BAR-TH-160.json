@@ -1,1 +1,40 @@
-{"os":"BAR-TH-160","link":"http://atee.fr/sites/default/files/bar-th-160_v_a27-1_a_compter_du_01-04-2018_2.pdf","name":"Isolation d’un réseau hydraulique de chauffage ou d’eau chaude sanitaire","sector":"Bâtiment résidentiel","content":"","amount":{"factors":[{"name":"Longueur isolée du réseau de chauffage ou d'ECS hors du volume chauffé","param":"facteur_l"}],"bases":[{"name":"Montant en kWh cumac par mètre de réseau isolé","values":[{"constraints":[{"param":"zone_climatique","operator":"equal","value":"h1"}],"value":6700},{"constraints":[{"param":"zone_climatique","operator":"equal","value":"h2"}],"value":5600},{"constraints":[{"param":"zone_climatique","operator":"equal","value":"h3"}],"value":4900}]}]},"appendix":""}
+{
+  "os": "BAR-TH-160",
+  "link": "http://atee.fr/sites/default/files/bar-th-160_v_a27-1_a_compter_du_01-04-2018_2.pdf",
+  "name": "Isolation d’un réseau hydraulique de chauffage ou d’eau chaude sanitaire",
+  "sector": "Bâtiment résidentiel",
+  "content": "",
+  "amount": {
+    "bases": [{
+      "name": "Montant en kWh cumac par mètre de réseau isolé",
+      "values": [{
+        "constraints": [{
+          "param": "zone_climatique",
+          "operator": "equal",
+          "value": "h1"
+        }],
+        "value": 6700
+      }, {
+        "constraints": [{
+          "param": "zone_climatique",
+          "operator": "equal",
+          "value": "h2"
+        }],
+        "value": 5600
+      }, {
+        "constraints": [{
+          "param": "zone_climatique",
+          "operator": "equal",
+          "value": "h3"
+        }],
+        "value": 4900
+      }]
+    }],
+    "factors": [{
+      "name": "Longueur isolée du réseau de chauffage ou d'ECS hors du volume chauffé",
+      "param": "facteur_l"
+    }],
+    "terms": []
+  },
+  "appendix": ""
+}

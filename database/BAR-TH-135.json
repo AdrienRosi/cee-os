@@ -1,1 +1,36 @@
-{"os":"BAR-TH-135","link":"http://atee.fr/sites/default/files/bar-th-135_0.pdf","name":"Chauffe-eau solaire collectif (France d'Outre-mer)","sector":"Bâtiment résidentiel","content":"","amount":{"factors":[{"name":"Besoin annuel en eau chaude sanitaire à produire par l'énergie solaire (kWh)","param":"facteur_b"},{"name":"Taux de couverture par l'énergie solaire de l'installation (%)","param":"facteur_t"}],"bases":[{"name":"Montant en kWh cumac","values":[{"constraints":[{"param":"type_appoint","operator":"equal","value":"Individuel"}],"value":0.148},{"constraints":[{"param":"type_appoint","operator":"equal","value":"Collectif"}],"value":0.144}]}]},"appendix":""}
+{
+  "os": "BAR-TH-135",
+  "link": "http://atee.fr/sites/default/files/bar-th-135_0.pdf",
+  "name": "Chauffe-eau solaire collectif (France d'Outre-mer)",
+  "sector": "Bâtiment résidentiel",
+  "content": "",
+  "amount": {
+    "bases": [{
+      "name": "Montant en kWh cumac",
+      "values": [{
+        "constraints": [{
+          "param": "type_appoint",
+          "operator": "equal",
+          "value": "Individuel"
+        }],
+        "value": 0.148
+      }, {
+        "constraints": [{
+          "param": "type_appoint",
+          "operator": "equal",
+          "value": "Collectif"
+        }],
+        "value": 0.144
+      }]
+    }],
+    "factors": [{
+      "name": "Besoin annuel en eau chaude sanitaire à produire par l'énergie solaire (kWh)",
+      "param": "facteur_b"
+    }, {
+      "name": "Taux de couverture par l'énergie solaire de l'installation (%)",
+      "param": "facteur_t"
+    }],
+    "terms": []
+  },
+  "appendix": ""
+}

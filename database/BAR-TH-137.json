@@ -1,1 +1,145 @@
-{"os":"BAR-TH-137","link":"http://atee.fr/sites/default/files/bar-th-137_0.pdf","name":"Raccordement d'un bâtiment résidentiel à un réseau de chaleur","sector":"Bâtiment résidentiel","content":"","amount":{"factors":[{"name":"Nombre d'appartements raccordés","param":"nombre","constraints":[{"param":"type_batiment","operator":"equal","value":"Bâtiment collectif"}]},{"name":"Surface habitable (m²)","constraints":[{"param":"type_batiment","operator":"equal","value":"Maison individuelle"}],"values":[{"contraints":[{"param":"surface_habitable","operator":"lessThan","value":70}],"value":0.5},{"contraints":[{"param":"surface_habitable","operator":"greaterThanOrEqual","value":70},{"param":"surface_habitable","operator":"lessThan","value":90}],"value":0.7},{"contraints":[{"param":"surface_habitable","operator":"greaterThanOrEqual","value":90},{"param":"surface_habitable","operator":"lessThan","value":110}],"value":1},{"contraints":[{"param":"surface_habitable","operator":"greaterThanOrEqual","value":110},{"param":"surface_habitable","operator":"lessThanOrEqual","value":130}],"value":1.1},{"contraints":[{"param":"surface_habitable","operator":"greaterThan","value":130}],"value":1.6}]}],"bases":[{"name":"Montant en kWh cumac","values":[{"constraints":[{"param":"type_batiment","operator":"equal","value":"Bâtiment collectif"},{"param":"zone_climatique","operator":"equal","value":"H1"}],"value":55500},{"constraints":[{"param":"type_batiment","operator":"equal","value":"Bâtiment collectif"},{"param":"zone_climatique","operator":"equal","value":"H2"}],"value":47900},{"constraints":[{"param":"type_batiment","operator":"equal","value":"Bâtiment collectif"},{"param":"zone_climatique","operator":"equal","value":"H3"}],"value":35600},{"constraints":[{"param":"type_batiment","operator":"equal","value":"Maison individuelle"},{"param":"zone_climatique","operator":"equal","value":"H1"}],"value":96300},{"constraints":[{"param":"type_batiment","operator":"equal","value":"Maison individuelle"},{"param":"zone_climatique","operator":"equal","value":"H2"}],"value":81400},{"constraints":[{"param":"type_batiment","operator":"equal","value":"Maison individuelle"},{"param":"zone_climatique","operator":"equal","value":"H3"}],"value":58600}]}]},"appendix":""}
+{
+  "os": "BAR-TH-137",
+  "link": "http://atee.fr/sites/default/files/bar-th-137_0.pdf",
+  "name": "Raccordement d'un bâtiment résidentiel à un réseau de chaleur",
+  "sector": "Bâtiment résidentiel",
+  "content": "",
+  "amount": {
+    "bases": [{
+      "name": "Montant en kWh cumac",
+      "values": [{
+        "constraints": [{
+          "param": "type_batiment",
+          "operator": "equal",
+          "value": "Bâtiment collectif"
+        }, {
+          "param": "zone_climatique",
+          "operator": "equal",
+          "value": "H1"
+        }],
+        "value": 55500
+      }, {
+        "constraints": [{
+          "param": "type_batiment",
+          "operator": "equal",
+          "value": "Bâtiment collectif"
+        }, {
+          "param": "zone_climatique",
+          "operator": "equal",
+          "value": "H2"
+        }],
+        "value": 47900
+      }, {
+        "constraints": [{
+          "param": "type_batiment",
+          "operator": "equal",
+          "value": "Bâtiment collectif"
+        }, {
+          "param": "zone_climatique",
+          "operator": "equal",
+          "value": "H3"
+        }],
+        "value": 35600
+      }, {
+        "constraints": [{
+          "param": "type_batiment",
+          "operator": "equal",
+          "value": "Maison individuelle"
+        }, {
+          "param": "zone_climatique",
+          "operator": "equal",
+          "value": "H1"
+        }],
+        "value": 96300
+      }, {
+        "constraints": [{
+          "param": "type_batiment",
+          "operator": "equal",
+          "value": "Maison individuelle"
+        }, {
+          "param": "zone_climatique",
+          "operator": "equal",
+          "value": "H2"
+        }],
+        "value": 81400
+      }, {
+        "constraints": [{
+          "param": "type_batiment",
+          "operator": "equal",
+          "value": "Maison individuelle"
+        }, {
+          "param": "zone_climatique",
+          "operator": "equal",
+          "value": "H3"
+        }],
+        "value": 58600
+      }]
+    }],
+    "factors": [{
+      "name": "Nombre d'appartements raccordés",
+      "param": "nombre",
+      "constraints": [{
+        "param": "type_batiment",
+        "operator": "equal",
+        "value": "Bâtiment collectif"
+      }]
+    }, {
+      "name": "Surface habitable (m²)",
+      "constraints": [{
+        "param": "type_batiment",
+        "operator": "equal",
+        "value": "Maison individuelle"
+      }],
+      "values": [{
+        "contraints": [{
+          "param": "surface_habitable",
+          "operator": "lessThan",
+          "value": 70
+        }],
+        "value": 0.5
+      }, {
+        "contraints": [{
+          "param": "surface_habitable",
+          "operator": "greaterThanOrEqual",
+          "value": 70
+        }, {
+          "param": "surface_habitable",
+          "operator": "lessThan",
+          "value": 90
+        }],
+        "value": 0.7
+      }, {
+        "contraints": [{
+          "param": "surface_habitable",
+          "operator": "greaterThanOrEqual",
+          "value": 90
+        }, {
+          "param": "surface_habitable",
+          "operator": "lessThan",
+          "value": 110
+        }],
+        "value": 1
+      }, {
+        "contraints": [{
+          "param": "surface_habitable",
+          "operator": "greaterThanOrEqual",
+          "value": 110
+        }, {
+          "param": "surface_habitable",
+          "operator": "lessThanOrEqual",
+          "value": 130
+        }],
+        "value": 1.1
+      }, {
+        "contraints": [{
+          "param": "surface_habitable",
+          "operator": "greaterThan",
+          "value": 130
+        }],
+        "value": 1.6
+      }]
+    }],
+    "terms": []
+  },
+  "appendix": ""
+}

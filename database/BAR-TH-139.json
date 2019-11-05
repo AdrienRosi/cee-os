@@ -1,1 +1,21 @@
-{"os":"BAR-TH-139","link":"http://atee.fr/sites/default/files/bar-th-139_mod_a23-2_apres_01-02-2017_1.pdf","name":"Système de variation électronique de vitesse sur une pompe","sector":"Bâtiment résidentiel","content":"","amount":{"factors":[{"name":"Puissance nominale du moteur de la pompe (kW)","param":"factor_p"}],"bases":[{"name":"","values":[{"value":14600}]}]},"appendix":""}
+{
+  "os": "BAR-TH-139",
+  "link": "http://atee.fr/sites/default/files/bar-th-139_mod_a23-2_apres_01-02-2017_1.pdf",
+  "name": "Système de variation électronique de vitesse sur une pompe",
+  "sector": "Bâtiment résidentiel",
+  "content": "",
+  "amount": {
+    "bases": [{
+      "name": "",
+      "values": [{
+        "value": 14600
+      }]
+    }],
+    "factors": [{
+      "name": "Puissance nominale du moteur de la pompe (kW)",
+      "param": "factor_p"
+    }],
+    "terms": []
+  },
+  "appendix": ""
+}

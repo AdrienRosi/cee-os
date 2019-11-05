@@ -1,1 +1,37 @@
-{"os":"BAR-TH-112","link":"http://atee.fr/sites/default/files/bar-th-112_0.pdf","name":"Appareil indépendant de chauffage au bois","sector":"Bâtiment résidentiel","content":"","amount":{"factors":[],"bases":[{"name":"Montant en kWh cumac","values":[{"constraints":[{"param":"zone_climatique","operator":"equal","value":"H1"}],"value":29600},{"constraints":[{"param":"zone_climatique","operator":"equal","value":"H2"}],"value":24200},{"constraints":[{"param":"zone_climatique","operator":"equal","value":"H3"}],"value":16100}]}]},"appendix":""}
+{
+  "os": "BAR-TH-112",
+  "link": "http://atee.fr/sites/default/files/bar-th-112_0.pdf",
+  "name": "Appareil indépendant de chauffage au bois",
+  "sector": "Bâtiment résidentiel",
+  "content": "",
+  "amount": {
+    "bases": [{
+      "name": "Montant en kWh cumac",
+      "values": [{
+        "constraints": [{
+          "param": "zone_climatique",
+          "operator": "equal",
+          "value": "H1"
+        }],
+        "value": 29600
+      }, {
+        "constraints": [{
+          "param": "zone_climatique",
+          "operator": "equal",
+          "value": "H2"
+        }],
+        "value": 24200
+      }, {
+        "constraints": [{
+          "param": "zone_climatique",
+          "operator": "equal",
+          "value": "H3"
+        }],
+        "value": 16100
+      }]
+    }],
+    "factors": [],
+    "terms": []
+  },
+  "appendix": ""
+}

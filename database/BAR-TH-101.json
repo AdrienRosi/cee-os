@@ -1,1 +1,37 @@
-{"os":"BAR-TH-101","link":"http://atee.fr/sites/default/files/bar-th-101_chauffe_eau_solaire_individuel_france_metropolitaine.pdf","name":"Chauffe-eau solaire individuel (France métropolitaine)","sector":"Bâtiment résidentiel","content":"","amount":{"factors":[],"bases":[{"name":"","values":[{"constraints":[{"param":"zone_climatique","operator":"equal","value":"H1"}],"value":21500},{"constraints":[{"param":"zone_climatique","operator":"equal","value":"H2"}],"value":24100},{"constraints":[{"param":"zone_climatique","operator":"equal","value":"H3"}],"value":27600}]}]},"appendix":""}
+{
+  "os": "BAR-TH-101",
+  "link": "http://atee.fr/sites/default/files/bar-th-101_chauffe_eau_solaire_individuel_france_metropolitaine.pdf",
+  "name": "Chauffe-eau solaire individuel (France métropolitaine)",
+  "sector": "Bâtiment résidentiel",
+  "content": "",
+  "amount": {
+    "bases": [{
+      "name": "",
+      "values": [{
+        "constraints": [{
+          "param": "zone_climatique",
+          "operator": "equal",
+          "value": "H1"
+        }],
+        "value": 21500
+      }, {
+        "constraints": [{
+          "param": "zone_climatique",
+          "operator": "equal",
+          "value": "H2"
+        }],
+        "value": 24100
+      }, {
+        "constraints": [{
+          "param": "zone_climatique",
+          "operator": "equal",
+          "value": "H3"
+        }],
+        "value": 27600
+      }]
+    }],
+    "factors": [],
+    "terms": []
+  },
+  "appendix": ""
+}

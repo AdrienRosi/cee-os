@@ -1,1 +1,48 @@
-{"os":"BAR-EQ-111","link":"http://atee.fr/sites/default/files/bar-eq-111_mod_a26-3_apres_01-10-2017.pdf","name":"Lampe à LED de classe A+","sector":"Bâtiment résidentiel","content":"","amount":{"factors":[{"name":"Nombre de lampes","param":"nombre"}],"bases":[{"name":"Montant en kWh cumac par lampe","values":[{"constraints":[{"param":"lumens","operator":"greaterThanOrEqual","value":250},{"param":"lumens","operator":"lessThan","value":800}],"value":20},{"constraints":[{"param":"lumens","operator":"greaterThanOrEqual","value":800},{"param":"lumens","operator":"lessThan","value":1000}],"value":40},{"constraints":[{"param":"lumens","operator":"greaterThanOrEqual","value":1000}],"value":50}]}]},"appendix":""}
+{
+  "os": "BAR-EQ-111",
+  "link": "http://atee.fr/sites/default/files/bar-eq-111_mod_a26-3_apres_01-10-2017.pdf",
+  "name": "Lampe à LED de classe A+",
+  "sector": "Bâtiment résidentiel",
+  "content": "",
+  "amount": {
+    "bases": [{
+      "name": "Montant en kWh cumac par lampe",
+      "values": [{
+        "constraints": [{
+          "param": "lumens",
+          "operator": "greaterThanOrEqual",
+          "value": 250
+        }, {
+          "param": "lumens",
+          "operator": "lessThan",
+          "value": 800
+        }],
+        "value": 20
+      }, {
+        "constraints": [{
+          "param": "lumens",
+          "operator": "greaterThanOrEqual",
+          "value": 800
+        }, {
+          "param": "lumens",
+          "operator": "lessThan",
+          "value": 1000
+        }],
+        "value": 40
+      }, {
+        "constraints": [{
+          "param": "lumens",
+          "operator": "greaterThanOrEqual",
+          "value": 1000
+        }],
+        "value": 50
+      }]
+    }],
+    "factors": [{
+      "name": "Nombre de lampes",
+      "param": "nombre"
+    }],
+    "terms": []
+  },
+  "appendix": ""
+}

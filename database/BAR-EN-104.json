@@ -1,1 +1,85 @@
-{"os":"BAR-EN-104","link":"http://atee.fr/sites/default/files/bar-en-104-fenetre_ou_porte_fenetre_compete_avec_vitrage_isolant.pdf","name":"Fenêtre ou porte-fenêtre avec vitrage isolant","sector":"Bâtiment résidentiel","content":"","amount":{"factors":[{"name":"Nombre de fenêtres ou portes-fenêtres complètes avec vitrage isolant posées","param":"nombre"}],"bases":[{"name":"Montant en kWh cumac par m² d'isolant","values":[{"constraints":[{"param":"zone_climatique","operator":"equal","value":"H1"},{"param":"energie","operator":"equal","value":"Électricité"}],"value":5200},{"constraints":[{"param":"zone_climatique","operator":"equal","value":"H1"},{"param":"energie","operator":"equal","value":"Combustible"}],"value":8200},{"constraints":[{"param":"zone_climatique","operator":"equal","value":"H2"},{"param":"energie","operator":"equal","value":"Électricité"}],"value":4200},{"constraints":[{"param":"zone_climatique","operator":"equal","value":"H2"},{"param":"energie","operator":"equal","value":"Combustible"}],"value":6700},{"constraints":[{"param":"zone_climatique","operator":"equal","value":"H3"},{"param":"energie","operator":"equal","value":"Électricité"}],"value":2800},{"constraints":[{"param":"zone_climatique","operator":"equal","value":"H3"},{"param":"energie","operator":"equal","value":"Combustible"}],"value":4500}]}]},"appendix":""}
+{
+  "os": "BAR-EN-104",
+  "link": "http://atee.fr/sites/default/files/bar-en-104-fenetre_ou_porte_fenetre_compete_avec_vitrage_isolant.pdf",
+  "name": "Fenêtre ou porte-fenêtre avec vitrage isolant",
+  "sector": "Bâtiment résidentiel",
+  "content": "",
+  "amount": {
+    "bases": [{
+      "name": "Montant en kWh cumac par m² d'isolant",
+      "values": [{
+        "constraints": [{
+          "param": "zone_climatique",
+          "operator": "equal",
+          "value": "H1"
+        }, {
+          "param": "energie",
+          "operator": "equal",
+          "value": "Électricité"
+        }],
+        "value": 5200
+      }, {
+        "constraints": [{
+          "param": "zone_climatique",
+          "operator": "equal",
+          "value": "H1"
+        }, {
+          "param": "energie",
+          "operator": "equal",
+          "value": "Combustible"
+        }],
+        "value": 8200
+      }, {
+        "constraints": [{
+          "param": "zone_climatique",
+          "operator": "equal",
+          "value": "H2"
+        }, {
+          "param": "energie",
+          "operator": "equal",
+          "value": "Électricité"
+        }],
+        "value": 4200
+      }, {
+        "constraints": [{
+          "param": "zone_climatique",
+          "operator": "equal",
+          "value": "H2"
+        }, {
+          "param": "energie",
+          "operator": "equal",
+          "value": "Combustible"
+        }],
+        "value": 6700
+      }, {
+        "constraints": [{
+          "param": "zone_climatique",
+          "operator": "equal",
+          "value": "H3"
+        }, {
+          "param": "energie",
+          "operator": "equal",
+          "value": "Électricité"
+        }],
+        "value": 2800
+      }, {
+        "constraints": [{
+          "param": "zone_climatique",
+          "operator": "equal",
+          "value": "H3"
+        }, {
+          "param": "energie",
+          "operator": "equal",
+          "value": "Combustible"
+        }],
+        "value": 4500
+      }]
+    }],
+    "factors": [{
+      "name": "Nombre de fenêtres ou portes-fenêtres complètes avec vitrage isolant posées",
+      "param": "nombre"
+    }],
+    "terms": []
+  },
+  "appendix": ""
+}

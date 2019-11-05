@@ -1,1 +1,63 @@
-{"os":"BAR-EQ-110","link":"http://atee.fr/sites/default/files/bar-eq-110-luminaire_a_modulees_led_avec_dispositif_controle_parties_communes.pdf","name":"Luminaire à modules LED avec dispositif de contrôle pour les parties communes","sector":"Bâtiment résidentiel","content":"","amount":{"factors":[{"name":"Nombre de luminaires installés","param":"nombre"}],"bases":[{"name":"Montant en kWh cumac par luminaire installé","values":[{"constraints":[{"param":"ik","operator":"greaterThanOrEqual","value":10},{"param":"systeme_detecion","operator":"equal","value":"Détection de présence ou de mouvement ou système de détection tenant compte des apports de lumière du jour"}],"value":1200},{"constraints":[{"param":"ik","operator":"greaterThanOrEqual","value":10},{"param":"systeme_detecion","operator":"equal","value":"Détection de présence oude mouvement et système de détection tenant compte des apports de lumière du jour"}],"value":1600},{"constraints":[{"param":"ik","operator":"lessThan","value":10},{"param":"systeme_detecion","operator":"equal","value":"Détection de présence ou de mouvement ou système de détection tenant compte des apports de lumière du jour"}],"value":1500},{"constraints":[{"param":"ik","operator":"lessThan","value":10},{"param":"systeme_detecion","operator":"equal","value":"Détection de présence oude mouvement et système de détection tenant compte des apports de lumière du jour"}],"value":1900}]}]},"appendix":""}
+{
+  "os": "BAR-EQ-110",
+  "link": "http://atee.fr/sites/default/files/bar-eq-110-luminaire_a_modulees_led_avec_dispositif_controle_parties_communes.pdf",
+  "name": "Luminaire à modules LED avec dispositif de contrôle pour les parties communes",
+  "sector": "Bâtiment résidentiel",
+  "content": "",
+  "amount": {
+    "bases": [{
+      "name": "Montant en kWh cumac par luminaire installé",
+      "values": [{
+        "constraints": [{
+          "param": "ik",
+          "operator": "greaterThanOrEqual",
+          "value": 10
+        }, {
+          "param": "systeme_detecion",
+          "operator": "equal",
+          "value": "Détection de présence ou de mouvement ou système de détection tenant compte des apports de lumière du jour"
+        }],
+        "value": 1200
+      }, {
+        "constraints": [{
+          "param": "ik",
+          "operator": "greaterThanOrEqual",
+          "value": 10
+        }, {
+          "param": "systeme_detecion",
+          "operator": "equal",
+          "value": "Détection de présence oude mouvement et système de détection tenant compte des apports de lumière du jour"
+        }],
+        "value": 1600
+      }, {
+        "constraints": [{
+          "param": "ik",
+          "operator": "lessThan",
+          "value": 10
+        }, {
+          "param": "systeme_detecion",
+          "operator": "equal",
+          "value": "Détection de présence ou de mouvement ou système de détection tenant compte des apports de lumière du jour"
+        }],
+        "value": 1500
+      }, {
+        "constraints": [{
+          "param": "ik",
+          "operator": "lessThan",
+          "value": 10
+        }, {
+          "param": "systeme_detecion",
+          "operator": "equal",
+          "value": "Détection de présence oude mouvement et système de détection tenant compte des apports de lumière du jour"
+        }],
+        "value": 1900
+      }]
+    }],
+    "factors": [{
+      "name": "Nombre de luminaires installés",
+      "param": "nombre"
+    }],
+    "terms": []
+  },
+  "appendix": ""
+}

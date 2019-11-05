@@ -5,10 +5,6 @@
   "sector": "Bâtiment résidentiel",
   "content": "",
   "amount": {
-    "factors": [{
-      "name": "Surface d'isolant (m²)",
-      "param": "surface"
-    }],
     "bases": [{
       "name": "Montant en kWh cumac par m² d'isolant en fonction de la zone climatique",
       "values": [{
@@ -33,7 +29,12 @@
         }],
         "value": 900
       }]
-    }]
+    }],
+    "factors": [{
+      "name": "Surface d'isolant (m²)",
+      "param": "surface"
+    }],
+    "terms": []
   },
   "appendix": ""
 }

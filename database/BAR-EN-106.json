@@ -1,1 +1,63 @@
-{"os":"BAR-EN-106","link":"http://atee.fr/sites/default/files/bar-en-106_isolation_combles_ou_toitures_france_om_modifiee.pdf","name":"Isolation de combles ou toitures en France d'Outre Mer","sector":"Bâtiment résidentiel","content":"","amount":{"factors":[{"name":"Surface d'isolant (m²)","param":"surface"}],"bases":[{"name":"Montant en kWh cumac par m² d'isolant en fonction de la zone climatique","values":[{"constraints":[{"param":"type_batiment","operator":"equal","value":"Maison individuelle"},{"param":"type_logement","operator":"equal","value":"Logement existant"}],"value":320},{"constraints":[{"param":"type_batiment","operator":"equal","value":"Maison individuelle"},{"param":"type_logement","operator":"equal","value":"Logement neuf"}],"value":210},{"constraints":[{"param":"type_batiment","operator":"equal","value":"Bâtiment collectif"},{"param":"type_logement","operator":"equal","value":"Logement existant"}],"value":380},{"constraints":[{"param":"type_batiment","operator":"equal","value":"Bâtiment collectif"},{"param":"type_logement","operator":"equal","value":"Logement neuf"}],"value":250}]}]},"appendix":""}
+{
+  "os": "BAR-EN-106",
+  "link": "http://atee.fr/sites/default/files/bar-en-106_isolation_combles_ou_toitures_france_om_modifiee.pdf",
+  "name": "Isolation de combles ou toitures en France d'Outre Mer",
+  "sector": "Bâtiment résidentiel",
+  "content": "",
+  "amount": {
+    "bases": [{
+      "name": "Montant en kWh cumac par m² d'isolant en fonction de la zone climatique",
+      "values": [{
+        "constraints": [{
+          "param": "type_batiment",
+          "operator": "equal",
+          "value": "Maison individuelle"
+        }, {
+          "param": "type_logement",
+          "operator": "equal",
+          "value": "Logement existant"
+        }],
+        "value": 320
+      }, {
+        "constraints": [{
+          "param": "type_batiment",
+          "operator": "equal",
+          "value": "Maison individuelle"
+        }, {
+          "param": "type_logement",
+          "operator": "equal",
+          "value": "Logement neuf"
+        }],
+        "value": 210
+      }, {
+        "constraints": [{
+          "param": "type_batiment",
+          "operator": "equal",
+          "value": "Bâtiment collectif"
+        }, {
+          "param": "type_logement",
+          "operator": "equal",
+          "value": "Logement existant"
+        }],
+        "value": 380
+      }, {
+        "constraints": [{
+          "param": "type_batiment",
+          "operator": "equal",
+          "value": "Bâtiment collectif"
+        }, {
+          "param": "type_logement",
+          "operator": "equal",
+          "value": "Logement neuf"
+        }],
+        "value": 250
+      }]
+    }],
+    "factors": [{
+      "name": "Surface d'isolant (m²)",
+      "param": "surface"
+    }],
+    "terms": []
+  },
+  "appendix": ""
+}

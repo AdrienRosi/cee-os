@@ -1,1 +1,129 @@
-{"os":"BAR-TH-124","link":"http://atee.fr/sites/default/files/bar-th-124_mod_a18-2_1.pdf","name":"Chauffe-eau solaire individuel (France d’outre-mer)","sector":"Bâtiment résidentiel","content":"","amount":{"factors":[{"name":"Surface de capteurs posés (m²)","param":"surface"}],"bases":[{"name":"Montant en kWh cumac par m² de capteurs posés","values":[{"constraints":[{"param":"departement","operator":"equal","value":"Guadeloupe"},{"param":"type_logement","operator":"equal","value":"Logement existant"}],"value":6100},{"constraints":[{"param":"departement","operator":"equal","value":"Martinique"},{"param":"type_logement","operator":"equal","value":"Logement existant"}],"value":6100},{"constraints":[{"param":"departement","operator":"equal","value":"Mayotte"},{"param":"type_logement","operator":"equal","value":"Logement existant"}],"value":6100},{"constraints":[{"param":"departement","operator":"equal","value":"Réunion"},{"param":"type_logement","operator":"equal","value":"Logement existant"}],"value":4600},{"constraints":[{"param":"departement","operator":"equal","value":"Guyane"},{"param":"type_logement","operator":"equal","value":"Logement existant"}],"value":5500},{"constraints":[{"param":"departement","operator":"equal","value":"Guadeloupe"},{"param":"type_logement","operator":"equal","value":"Logement neuf"}],"value":3100},{"constraints":[{"param":"departement","operator":"equal","value":"Martinique"},{"param":"type_logement","operator":"equal","value":"Logement neuf"}],"value":3100},{"constraints":[{"param":"departement","operator":"equal","value":"Mayotte"},{"param":"type_logement","operator":"equal","value":"Logement neuf"}],"value":3100},{"constraints":[{"param":"departement","operator":"equal","value":"Réunion"},{"param":"type_logement","operator":"equal","value":"Logement neuf"}],"value":2300},{"constraints":[{"param":"departement","operator":"equal","value":"Guyane"},{"param":"type_logement","operator":"equal","value":"Logement neuf"}],"value":5500}]}]},"appendix":""}
+{
+  "os": "BAR-TH-124",
+  "link": "http://atee.fr/sites/default/files/bar-th-124_mod_a18-2_1.pdf",
+  "name": "Chauffe-eau solaire individuel (France d’outre-mer)",
+  "sector": "Bâtiment résidentiel",
+  "content": "",
+  "amount": {
+    "bases": [{
+      "name": "Montant en kWh cumac par m² de capteurs posés",
+      "values": [{
+        "constraints": [{
+          "param": "departement",
+          "operator": "equal",
+          "value": "Guadeloupe"
+        }, {
+          "param": "type_logement",
+          "operator": "equal",
+          "value": "Logement existant"
+        }],
+        "value": 6100
+      }, {
+        "constraints": [{
+          "param": "departement",
+          "operator": "equal",
+          "value": "Martinique"
+        }, {
+          "param": "type_logement",
+          "operator": "equal",
+          "value": "Logement existant"
+        }],
+        "value": 6100
+      }, {
+        "constraints": [{
+          "param": "departement",
+          "operator": "equal",
+          "value": "Mayotte"
+        }, {
+          "param": "type_logement",
+          "operator": "equal",
+          "value": "Logement existant"
+        }],
+        "value": 6100
+      }, {
+        "constraints": [{
+          "param": "departement",
+          "operator": "equal",
+          "value": "Réunion"
+        }, {
+          "param": "type_logement",
+          "operator": "equal",
+          "value": "Logement existant"
+        }],
+        "value": 4600
+      }, {
+        "constraints": [{
+          "param": "departement",
+          "operator": "equal",
+          "value": "Guyane"
+        }, {
+          "param": "type_logement",
+          "operator": "equal",
+          "value": "Logement existant"
+        }],
+        "value": 5500
+      }, {
+        "constraints": [{
+          "param": "departement",
+          "operator": "equal",
+          "value": "Guadeloupe"
+        }, {
+          "param": "type_logement",
+          "operator": "equal",
+          "value": "Logement neuf"
+        }],
+        "value": 3100
+      }, {
+        "constraints": [{
+          "param": "departement",
+          "operator": "equal",
+          "value": "Martinique"
+        }, {
+          "param": "type_logement",
+          "operator": "equal",
+          "value": "Logement neuf"
+        }],
+        "value": 3100
+      }, {
+        "constraints": [{
+          "param": "departement",
+          "operator": "equal",
+          "value": "Mayotte"
+        }, {
+          "param": "type_logement",
+          "operator": "equal",
+          "value": "Logement neuf"
+        }],
+        "value": 3100
+      }, {
+        "constraints": [{
+          "param": "departement",
+          "operator": "equal",
+          "value": "Réunion"
+        }, {
+          "param": "type_logement",
+          "operator": "equal",
+          "value": "Logement neuf"
+        }],
+        "value": 2300
+      }, {
+        "constraints": [{
+          "param": "departement",
+          "operator": "equal",
+          "value": "Guyane"
+        }, {
+          "param": "type_logement",
+          "operator": "equal",
+          "value": "Logement neuf"
+        }],
+        "value": 5500
+      }]
+    }],
+    "factors": [{
+      "name": "Surface de capteurs posés (m²)",
+      "param": "surface"
+    }],
+    "terms": []
+  },
+  "appendix": ""
+}

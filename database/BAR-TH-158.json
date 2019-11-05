@@ -1,1 +1,85 @@
-{"os":"BAR-TH-158","link":"http://atee.fr/sites/default/files/bar-th-158_0.pdf","name":"Emetteur électrique à régulation éclectronique à fonctions avancées","sector":"Bâtiment résidentiel","content":"","amount":{"factors":[{"name":"Nombre d'émetteurs électriques installés","param":"facteur_n"}],"bases":[{"name":"Montant en kWh cumac par émetteur électrique installé ","values":[{"constraints":[{"param":"type_batiment","operator":"equal","value":"maison individuelle"},{"param":"zone_climatique","operator":"equal","value":"h1"}],"value":3200},{"constraints":[{"param":"type_batiment","operator":"equal","value":"maison individuelle"},{"param":"zone_climatique","operator":"equal","value":"h2"}],"value":2600},{"constraints":[{"param":"type_batiment","operator":"equal","value":"maison individuelle"},{"param":"zone_climatique","operator":"equal","value":"h3"}],"value":1800},{"constraints":[{"param":"type_batiment","operator":"equal","value":"appartement"},{"param":"zone_climatique","operator":"equal","value":"h1"}],"value":2200},{"constraints":[{"param":"type_batiment","operator":"equal","value":"appartement"},{"param":"zone_climatique","operator":"equal","value":"h2"}],"value":1800},{"constraints":[{"param":"type_batiment","operator":"equal","value":"appartement"},{"param":"zone_climatique","operator":"equal","value":"h3"}],"value":1200}]}]},"appendix":""}
+{
+  "os": "BAR-TH-158",
+  "link": "http://atee.fr/sites/default/files/bar-th-158_0.pdf",
+  "name": "Emetteur électrique à régulation éclectronique à fonctions avancées",
+  "sector": "Bâtiment résidentiel",
+  "content": "",
+  "amount": {
+    "bases": [{
+      "name": "Montant en kWh cumac par émetteur électrique installé ",
+      "values": [{
+        "constraints": [{
+          "param": "type_batiment",
+          "operator": "equal",
+          "value": "maison individuelle"
+        }, {
+          "param": "zone_climatique",
+          "operator": "equal",
+          "value": "h1"
+        }],
+        "value": 3200
+      }, {
+        "constraints": [{
+          "param": "type_batiment",
+          "operator": "equal",
+          "value": "maison individuelle"
+        }, {
+          "param": "zone_climatique",
+          "operator": "equal",
+          "value": "h2"
+        }],
+        "value": 2600
+      }, {
+        "constraints": [{
+          "param": "type_batiment",
+          "operator": "equal",
+          "value": "maison individuelle"
+        }, {
+          "param": "zone_climatique",
+          "operator": "equal",
+          "value": "h3"
+        }],
+        "value": 1800
+      }, {
+        "constraints": [{
+          "param": "type_batiment",
+          "operator": "equal",
+          "value": "appartement"
+        }, {
+          "param": "zone_climatique",
+          "operator": "equal",
+          "value": "h1"
+        }],
+        "value": 2200
+      }, {
+        "constraints": [{
+          "param": "type_batiment",
+          "operator": "equal",
+          "value": "appartement"
+        }, {
+          "param": "zone_climatique",
+          "operator": "equal",
+          "value": "h2"
+        }],
+        "value": 1800
+      }, {
+        "constraints": [{
+          "param": "type_batiment",
+          "operator": "equal",
+          "value": "appartement"
+        }, {
+          "param": "zone_climatique",
+          "operator": "equal",
+          "value": "h3"
+        }],
+        "value": 1200
+      }]
+    }],
+    "factors": [{
+      "name": "Nombre d'émetteurs électriques installés",
+      "param": "facteur_n"
+    }],
+    "terms": []
+  },
+  "appendix": ""
+}
