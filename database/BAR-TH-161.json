@@ -6,33 +6,470 @@
   "content": "",
   "amount": {
     "bases": [{
-      "name": "Montant en kWh cumac par mètre de réseau isolé",
+      "name": "Montant en kWh cumac par house isolante mise en place",
+      "constraints": [{
+        "param": "type_point_singulier",
+        "operator": "equal",
+        "value": "autre"
+      }],
       "values": [{
         "constraints": [{
+          "param": "diametre_canalisation",
+          "operator": "greaterThanOrEqual",
+          "value": 20
+        }, {
+          "param": "diametre_canalisation",
+          "operator": "lessThanOrEqual",
+          "value": 65
+        }, {
+          "param": "temperature_fluide",
+          "operator": "greaterThanOrEqual",
+          "value": 50
+        }, {
+          "param": "temperature_fluide",
+          "operator": "lessThanOrEqual",
+          "value": 120
+        }, {
           "param": "zone_climatique",
           "operator": "equal",
           "value": "h1"
         }],
-        "value": 6700
+        "value": 11700
       }, {
         "constraints": [{
+          "param": "diametre_canalisation",
+          "operator": "greaterThanOrEqual",
+          "value": 20
+        }, {
+          "param": "diametre_canalisation",
+          "operator": "lessThanOrEqual",
+          "value": 65
+        }, {
+          "param": "temperature_fluide",
+          "operator": "greaterThanOrEqual",
+          "value": 50
+        }, {
+          "param": "temperature_fluide",
+          "operator": "lessThanOrEqual",
+          "value": 120
+        }, {
           "param": "zone_climatique",
           "operator": "equal",
           "value": "h2"
         }],
-        "value": 5600
+        "value": 10500
       }, {
         "constraints": [{
+          "param": "diametre_canalisation",
+          "operator": "greaterThanOrEqual",
+          "value": 20
+        }, {
+          "param": "diametre_canalisation",
+          "operator": "lessThanOrEqual",
+          "value": 65
+        }, {
+          "param": "temperature_fluide",
+          "operator": "greaterThanOrEqual",
+          "value": 50
+        }, {
+          "param": "temperature_fluide",
+          "operator": "lessThanOrEqual",
+          "value": 120
+        }, {
           "param": "zone_climatique",
           "operator": "equal",
           "value": "h3"
         }],
-        "value": 4900
+        "value": 8800
+      }, {
+        "constraints": [{
+          "param": "diametre_canalisation",
+          "operator": "greaterThanOrEqual",
+          "value": 20
+        }, {
+          "param": "diametre_canalisation",
+          "operator": "lessThanOrEqual",
+          "value": 65
+        }, {
+          "param": "temperature_fluide",
+          "operator": "greaterThan",
+          "value": 120
+        }, {
+          "param": "zone_climatique",
+          "operator": "equal",
+          "value": "h1"
+        }],
+        "value": 12900
+      }, {
+        "constraints": [{
+          "param": "diametre_canalisation",
+          "operator": "greaterThanOrEqual",
+          "value": 20
+        }, {
+          "param": "diametre_canalisation",
+          "operator": "lessThanOrEqual",
+          "value": 65
+        }, {
+          "param": "temperature_fluide",
+          "operator": "greaterThan",
+          "value": 120
+        }, {
+          "param": "zone_climatique",
+          "operator": "equal",
+          "value": "h2"
+        }],
+        "value": 11600
+      }, {
+        "constraints": [{
+          "param": "diametre_canalisation",
+          "operator": "greaterThanOrEqual",
+          "value": 20
+        }, {
+          "param": "diametre_canalisation",
+          "operator": "lessThanOrEqual",
+          "value": 65
+        }, {
+          "param": "temperature_fluide",
+          "operator": "greaterThan",
+          "value": 120
+        },  {
+          "param": "zone_climatique",
+          "operator": "equal",
+          "value": "h3"
+        }],
+        "value": 9700
+      }, {
+        "constraints": [{
+          "param": "diametre_canalisation",
+          "operator": "greaterThanOrEqual",
+          "value": 65
+        }, {
+          "param": "diametre_canalisation",
+          "operator": "lessThanOrEqual",
+          "value": 100
+        }, {
+          "param": "temperature_fluide",
+          "operator": "greaterThanOrEqual",
+          "value": 50
+        }, {
+          "param": "temperature_fluide",
+          "operator": "lessThanOrEqual",
+          "value": 120
+        }, {
+          "param": "zone_climatique",
+          "operator": "equal",
+          "value": "h1"
+        }],
+        "value": 25100
+      }, {
+        "constraints": [{
+          "param": "diametre_canalisation",
+          "operator": "greaterThanOrEqual",
+          "value": 65
+        }, {
+          "param": "diametre_canalisation",
+          "operator": "lessThanOrEqual",
+          "value": 100
+        }, {
+          "param": "temperature_fluide",
+          "operator": "greaterThanOrEqual",
+          "value": 50
+        }, {
+          "param": "temperature_fluide",
+          "operator": "lessThanOrEqual",
+          "value": 120
+        }, {
+          "param": "zone_climatique",
+          "operator": "equal",
+          "value": "h2"
+        }],
+        "value": 22700
+      }, {
+        "constraints": [{
+          "param": "diametre_canalisation",
+          "operator": "greaterThanOrEqual",
+          "value": 65
+        }, {
+          "param": "diametre_canalisation",
+          "operator": "lessThanOrEqual",
+          "value": 100
+        }, {
+          "param": "temperature_fluide",
+          "operator": "greaterThanOrEqual",
+          "value": 50
+        }, {
+          "param": "temperature_fluide",
+          "operator": "lessThanOrEqual",
+          "value": 120
+        }, {
+          "param": "zone_climatique",
+          "operator": "equal",
+          "value": "h3"
+        }],
+        "value": 18900
+      }, {
+        "constraints": [{
+          "param": "diametre_canalisation",
+          "operator": "greaterThanOrEqual",
+          "value": 65
+        }, {
+          "param": "diametre_canalisation",
+          "operator": "lessThanOrEqual",
+          "value": 100
+        }, {
+          "param": "temperature_fluide",
+          "operator": "greaterThan",
+          "value": 120
+        }, {
+          "param": "zone_climatique",
+          "operator": "equal",
+          "value": "h1"
+        }],
+        "value": 27800
+      }, {
+        "constraints": [{
+          "param": "diametre_canalisation",
+          "operator": "greaterThanOrEqual",
+          "value": 65
+        }, {
+          "param": "diametre_canalisation",
+          "operator": "lessThanOrEqual",
+          "value": 100
+        }, {
+          "param": "temperature_fluide",
+          "operator": "greaterThan",
+          "value": 120
+        }, {
+          "param": "zone_climatique",
+          "operator": "equal",
+          "value": "h2"
+        }],
+        "value": 25100
+      }, {
+        "constraints": [{
+          "param": "diametre_canalisation",
+          "operator": "greaterThanOrEqual",
+          "value": 65
+        }, {
+          "param": "diametre_canalisation",
+          "operator": "lessThanOrEqual",
+          "value": 100
+        }, {
+          "param": "temperature_fluide",
+          "operator": "greaterThan",
+          "value": 120
+        },  {
+          "param": "zone_climatique",
+          "operator": "equal",
+          "value": "h3"
+        }],
+        "value": 20900
+      }, {
+        "constraints": [{
+          "param": "diametre_canalisation",
+          "operator": "greaterThan",
+          "value": 100
+        }, {
+          "param": "temperature_fluide",
+          "operator": "greaterThanOrEqual",
+          "value": 50
+        }, {
+          "param": "temperature_fluide",
+          "operator": "lessThanOrEqual",
+          "value": 120
+        }, {
+          "param": "zone_climatique",
+          "operator": "equal",
+          "value": "h1"
+        }],
+        "value": 40900
+      }, {
+        "constraints": [{
+          "param": "diametre_canalisation",
+          "operator": "greaterThan",
+          "value": 100
+        }, {
+          "param": "temperature_fluide",
+          "operator": "greaterThanOrEqual",
+          "value": 50
+        }, {
+          "param": "temperature_fluide",
+          "operator": "lessThanOrEqual",
+          "value": 120
+        }, {
+          "param": "zone_climatique",
+          "operator": "equal",
+          "value": "h2"
+        }],
+        "value": 37000
+      }, {
+        "constraints": [{
+          "param": "diametre_canalisation",
+          "operator": "greaterThan",
+          "value": 100
+        }, {
+          "param": "temperature_fluide",
+          "operator": "greaterThanOrEqual",
+          "value": 50
+        }, {
+          "param": "temperature_fluide",
+          "operator": "lessThanOrEqual",
+          "value": 120
+        }, {
+          "param": "zone_climatique",
+          "operator": "equal",
+          "value": "h3"
+        }],
+        "value": 30800
+      }, {
+        "constraints": [{
+          "param": "diametre_canalisation",
+          "operator": "greaterThan",
+          "value": 100
+        }, {
+          "param": "temperature_fluide",
+          "operator": "greaterThan",
+          "value": 120
+        }, {
+          "param": "zone_climatique",
+          "operator": "equal",
+          "value": "h1"
+        }],
+        "value": 45400
+      }, {
+        "constraints": [{
+          "param": "diametre_canalisation",
+          "operator": "greaterThan",
+          "value": 100
+        }, {
+          "param": "temperature_fluide",
+          "operator": "greaterThan",
+          "value": 120
+        }, {
+          "param": "zone_climatique",
+          "operator": "equal",
+          "value": "h2"
+        }],
+        "value": 41000
+      }, {
+        "constraints": [{
+          "param": "diametre_canalisation",
+          "operator": "greaterThan",
+          "value": 100
+        }, {
+          "param": "temperature_fluide",
+          "operator": "greaterThan",
+          "value": 120
+        },  {
+          "param": "zone_climatique",
+          "operator": "equal",
+          "value": "h3"
+        }],
+        "value": 34100
+      }]
+    }, {
+      "name": "Montant en kWh cumac par échangeur isolé",
+      "constraints": [{
+        "param": "type_point_singulier",
+        "operator": "equal",
+        "value": "echangeur a plaque"
+      }],
+      "values": [{
+        "constraints": [{
+          "param": "temperature_fluide",
+          "operator": "greaterThanOrEqual",
+          "value": 50
+        }, {
+          "param": "temperature_fluide",
+          "operator": "lessThanOrEqual",
+          "value": 120
+        }, {
+          "param": "zone_climatique",
+          "operator": "equal",
+          "value": "h1"
+        }],
+        "value": 77200
+      }, {
+        "constraints": [{
+          "param": "temperature_fluide",
+          "operator": "greaterThanOrEqual",
+          "value": 50
+        }, {
+          "param": "temperature_fluide",
+          "operator": "lessThanOrEqual",
+          "value": 120
+        }, {
+          "param": "zone_climatique",
+          "operator": "equal",
+          "value": "h2"
+        }],
+        "value": 73500
+      }, {
+        "constraints": [{
+          "param": "temperature_fluide",
+          "operator": "greaterThanOrEqual",
+          "value": 50
+        }, {
+          "param": "temperature_fluide",
+          "operator": "lessThanOrEqual",
+          "value": 120
+        }, {
+          "param": "zone_climatique",
+          "operator": "equal",
+          "value": "h3"
+        }],
+        "value": 66900
+      }, {
+        "constraints": [{
+          "param": "temperature_fluide",
+          "operator": "greaterThan",
+          "value": 120
+        }, {
+          "param": "zone_climatique",
+          "operator": "equal",
+          "value": "h1"
+        }],
+        "value": 88000
+      }, {
+        "constraints": [{
+          "param": "temperature_fluide",
+          "operator": "greaterThan",
+          "value": 120
+        }, {
+          "param": "zone_climatique",
+          "operator": "equal",
+          "value": "h2"
+        }],
+        "value": 83900
+      }, {
+        "constraints": [{
+          "param": "temperature_fluide",
+          "operator": "greaterThan",
+          "value": 120
+        },  {
+          "param": "zone_climatique",
+          "operator": "equal",
+          "value": "h3"
+        }],
+        "value": 76300
       }]
     }],
     "factors": [{
-      "name": "Longueur isolée du réseau de chauffage ou d'ECS hors du volume chauffé",
-      "param": "facteur_l"
+      "name": "Nombre de housses isolantes mises en place",
+      "param": "facteur_n",
+      "constraints": [{
+        "param": "type_point_singulier",
+        "operator": "equal",
+        "value": "autre"
+      }]
+    }, {
+      "name": "Nombre d’échangeurs à plaques isolés",
+      "param": "facteur_n",
+      "constraints": [{
+        "param": "type_point_singulier",
+        "operator": "equal",
+        "value": "echangeur a plaque"
+      }]
     }],
     "terms": []
   },
