@@ -1,0 +1,18 @@
+{
+  "os": "BAR-TH-162",
+  "link": "http://atee.fr/sites/default/files/bar-th-162_0.pdf",
+  "name": "Système énergétique comportant des capteurs solaires photovoltaïques et thermiques à circulation d’eau (France métropolitaine)",
+  "sector": "Bâtiment résidentiel",
+  "content": "",
+  "amount": {
+    "bases": [{
+      "name": "Montant en kWh cumac",
+      "values": [{
+        "value": 20900
+      }]
+    }],
+    "factors": [],
+    "terms": []
+  },
+  "appendix": ""
+}
