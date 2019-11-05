@@ -15,7 +15,7 @@
         }, {
           "param": "classe",
           "operator": "equal",
-          "value": "A++"
+          "value": "a++"
         }],
         "value": 440
       }, {
@@ -26,7 +26,7 @@
         }, {
           "param": "classe",
           "operator": "equal",
-          "value": "A+++"
+          "value": "a+++"
         }],
         "value": 1000
       }, {
@@ -37,7 +37,7 @@
         }, {
           "param": "classe",
           "operator": "equal",
-          "value": "A++"
+          "value": "a++"
         }],
         "value": 490
       }, {
@@ -48,14 +48,14 @@
         }, {
           "param": "classe",
           "operator": "equal",
-          "value": "A+++"
+          "value": "a+++"
         }],
         "value": 1100
       }]
     }],
     "factors": [{
       "name": "Nombre d'appareils",
-      "param": "nombre"
+      "param": "facteur_n"
     }],
     "terms": []
   },

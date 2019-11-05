@@ -11,7 +11,7 @@
         "constraints": [{
           "param": "type_batiment",
           "operator": "equal",
-          "value": "Appartement"
+          "value": "appartement"
         }, {
           "param": "type_echangeur",
           "operator": "equal",
@@ -19,18 +19,18 @@
         }, {
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H1"
+          "value": "h1"
         }, {
           "param": "energie",
           "operator": "equal",
-          "value": "Électricité"
+          "value": "electricite"
         }],
         "value": 15100
       }, {
         "constraints": [{
           "param": "type_batiment",
           "operator": "equal",
-          "value": "Appartement"
+          "value": "appartement"
         }, {
           "param": "type_echangeur",
           "operator": "equal",
@@ -38,18 +38,18 @@
         }, {
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H1"
+          "value": "h1"
         }, {
           "param": "energie",
           "operator": "equal",
-          "value": "Combustible"
+          "value": "combustible"
         }],
         "value": 26500
       }, {
         "constraints": [{
           "param": "type_batiment",
           "operator": "equal",
-          "value": "Appartement"
+          "value": "appartement"
         }, {
           "param": "type_echangeur",
           "operator": "equal",
@@ -57,18 +57,18 @@
         }, {
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H2"
+          "value": "h2"
         }, {
           "param": "energie",
           "operator": "equal",
-          "value": "Électricité"
+          "value": "electricite"
         }],
         "value": 12400
       }, {
         "constraints": [{
           "param": "type_batiment",
           "operator": "equal",
-          "value": "Appartement"
+          "value": "appartement"
         }, {
           "param": "type_echangeur",
           "operator": "equal",
@@ -76,18 +76,18 @@
         }, {
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H2"
+          "value": "h2"
         }, {
           "param": "energie",
           "operator": "equal",
-          "value": "Combustible"
+          "value": "combustible"
         }],
         "value": 21700
       }, {
         "constraints": [{
           "param": "type_batiment",
           "operator": "equal",
-          "value": "Appartement"
+          "value": "appartement"
         }, {
           "param": "type_echangeur",
           "operator": "equal",
@@ -95,18 +95,18 @@
         }, {
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H3"
+          "value": "h3"
         }, {
           "param": "energie",
           "operator": "equal",
-          "value": "Électricité"
+          "value": "electricite"
         }],
         "value": 8300
       }, {
         "constraints": [{
           "param": "type_batiment",
           "operator": "equal",
-          "value": "Appartement"
+          "value": "appartement"
         }, {
           "param": "type_echangeur",
           "operator": "equal",
@@ -114,18 +114,18 @@
         }, {
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H3"
+          "value": "h3"
         }, {
           "param": "energie",
           "operator": "equal",
-          "value": "Combustible"
+          "value": "combustible"
         }],
         "value": 14400
       }, {
         "constraints": [{
           "param": "type_batiment",
           "operator": "equal",
-          "value": "Appartement"
+          "value": "appartement"
         }, {
           "param": "type_echangeur",
           "operator": "equal",
@@ -133,18 +133,18 @@
         }, {
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H1"
+          "value": "h1"
         }, {
           "param": "energie",
           "operator": "equal",
-          "value": "Électricité"
+          "value": "electricite"
         }],
         "value": 16900
       }, {
         "constraints": [{
           "param": "type_batiment",
           "operator": "equal",
-          "value": "Appartement"
+          "value": "appartement"
         }, {
           "param": "type_echangeur",
           "operator": "equal",
@@ -152,18 +152,18 @@
         }, {
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H1"
+          "value": "h1"
         }, {
           "param": "energie",
           "operator": "equal",
-          "value": "Combustible"
+          "value": "combustible"
         }],
         "value": 29300
       }, {
         "constraints": [{
           "param": "type_batiment",
           "operator": "equal",
-          "value": "Appartement"
+          "value": "appartement"
         }, {
           "param": "type_echangeur",
           "operator": "equal",
@@ -171,18 +171,18 @@
         }, {
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H2"
+          "value": "h2"
         }, {
           "param": "energie",
           "operator": "equal",
-          "value": "Électricité"
+          "value": "electricite"
         }],
         "value": 13800
       }, {
         "constraints": [{
           "param": "type_batiment",
           "operator": "equal",
-          "value": "Appartement"
+          "value": "appartement"
         }, {
           "param": "type_echangeur",
           "operator": "equal",
@@ -190,18 +190,18 @@
         }, {
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H2"
+          "value": "h2"
         }, {
           "param": "energie",
           "operator": "equal",
-          "value": "Combustible"
+          "value": "combustible"
         }],
         "value": 23900
       }, {
         "constraints": [{
           "param": "type_batiment",
           "operator": "equal",
-          "value": "Appartement"
+          "value": "appartement"
         }, {
           "param": "type_echangeur",
           "operator": "equal",
@@ -209,18 +209,18 @@
         }, {
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H3"
+          "value": "h3"
         }, {
           "param": "energie",
           "operator": "equal",
-          "value": "Électricité"
+          "value": "electricite"
         }],
         "value": 9200
       }, {
         "constraints": [{
           "param": "type_batiment",
           "operator": "equal",
-          "value": "Appartement"
+          "value": "appartement"
         }, {
           "param": "type_echangeur",
           "operator": "equal",
@@ -228,119 +228,119 @@
         }, {
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H3"
+          "value": "h3"
         }, {
           "param": "energie",
           "operator": "equal",
-          "value": "Combustible"
+          "value": "combustible"
         }],
         "value": 16000
       }, {
         "constraints": [{
           "param": "type_batiment",
           "operator": "equal",
-          "value": "Maison individuelle"
+          "value": "maison individuelle"
         }, {
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H1"
+          "value": "h1"
         }, {
           "param": "energie",
           "operator": "equal",
-          "value": "Électricité"
+          "value": "electricite"
         }],
         "value": 28050
       }, {
         "constraints": [{
           "param": "type_batiment",
           "operator": "equal",
-          "value": "Maison individuelle"
+          "value": "maison individuelle"
         }, {
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H1"
+          "value": "h1"
         }, {
           "param": "energie",
           "operator": "equal",
-          "value": "Combustible"
+          "value": "combustible"
         }],
         "value": 46100
       }, {
         "constraints": [{
           "param": "type_batiment",
           "operator": "equal",
-          "value": "Maison individuelle"
+          "value": "maison individuelle"
         }, {
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H2"
+          "value": "h2"
         }, {
           "param": "energie",
           "operator": "equal",
-          "value": "Électricité"
+          "value": "electricite"
         }],
         "value": 23300
       }, {
         "constraints": [{
           "param": "type_batiment",
           "operator": "equal",
-          "value": "Maison individuelle"
+          "value": "maison individuelle"
         }, {
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H2"
+          "value": "h2"
         }, {
           "param": "energie",
           "operator": "equal",
-          "value": "Combustible"
+          "value": "combustible"
         }],
         "value": 37700
       }, {
         "constraints": [{
           "param": "type_batiment",
           "operator": "equal",
-          "value": "Maison individuelle"
+          "value": "maison individuelle"
         }, {
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H3"
+          "value": "h3"
         }, {
           "param": "energie",
           "operator": "equal",
-          "value": "Électricité"
+          "value": "electricite"
         }],
         "value": 15500
       }, {
         "constraints": [{
           "param": "type_batiment",
           "operator": "equal",
-          "value": "Maison individuelle"
+          "value": "maison individuelle"
         }, {
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H3"
+          "value": "h3"
         }, {
           "param": "energie",
           "operator": "equal",
-          "value": "Combustible"
+          "value": "combustible"
         }],
         "value": 25100
       }]
     }],
     "factors": [{
       "name": "Nombre d'appartements",
-      "param": "nombre",
+      "param": "facteur_n",
       "constraints": [{
         "param": "type_batiment",
         "operator": "equal",
-        "value": "Appartement"
+        "value": "appartement"
       }, {
         "name": "Facteur correctif selon la surface habitable",
         "values": [{
           "contraints": [{
             "param": "type_batiment",
             "operator": "equal",
-            "value": "Maison individuelle"
+            "value": "maison individuelle"
           }, {
             "param": "surface_habitable",
             "operator": "lessThan",
@@ -351,7 +351,7 @@
           "contraints": [{
             "param": "type_batiment",
             "operator": "equal",
-            "value": "Maison individuelle"
+            "value": "maison individuelle"
           }, {
             "param": "surface_habitable",
             "operator": "greaterThanOrEqual",
@@ -366,7 +366,7 @@
           "contraints": [{
             "param": "type_batiment",
             "operator": "equal",
-            "value": "Maison individuelle"
+            "value": "maison individuelle"
           }, {
             "param": "surface_habitable",
             "operator": "greaterThanOrEqual",
@@ -381,7 +381,7 @@
           "contraints": [{
             "param": "type_batiment",
             "operator": "equal",
-            "value": "Maison individuelle"
+            "value": "maison individuelle"
           }, {
             "param": "surface_habitable",
             "operator": "greaterThanOrEqual",
@@ -396,7 +396,7 @@
           "contraints": [{
             "param": "type_batiment",
             "operator": "equal",
-            "value": "Maison individuelle"
+            "value": "maison individuelle"
           }, {
             "param": "surface_habitable",
             "operator": "greaterThanOrEqual",
@@ -411,7 +411,7 @@
           "contraints": [{
             "param": "type_batiment",
             "operator": "equal",
-            "value": "Maison individuelle"
+            "value": "maison individuelle"
           }, {
             "param": "surface_habitable",
             "operator": "greaterThanOrEqual",
@@ -426,7 +426,7 @@
           "contraints": [{
             "param": "type_batiment",
             "operator": "equal",
-            "value": "Maison individuelle"
+            "value": "maison individuelle"
           }, {
             "param": "surface_habitable",
             "operator": "greaterThan",

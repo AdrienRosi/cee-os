@@ -11,73 +11,73 @@
         "constraints": [{
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H1"
+          "value": "h1"
         }, {
           "param": "energie",
           "operator": "equal",
-          "value": "Électricité"
+          "value": "electricite"
         }],
         "value": 800
       }, {
         "constraints": [{
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H1"
+          "value": "h1"
         }, {
           "param": "energie",
           "operator": "equal",
-          "value": "Combustible"
+          "value": "combustible"
         }],
         "value": 1300
       }, {
         "constraints": [{
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H2"
+          "value": "h2"
         }, {
           "param": "energie",
           "operator": "equal",
-          "value": "Électricité"
+          "value": "electricite"
         }],
         "value": 660
       }, {
         "constraints": [{
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H2"
+          "value": "h2"
         }, {
           "param": "energie",
           "operator": "equal",
-          "value": "Combustible"
+          "value": "combustible"
         }],
         "value": 1000
       }, {
         "constraints": [{
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H3"
+          "value": "h3"
         }, {
           "param": "energie",
           "operator": "equal",
-          "value": "Électricité"
+          "value": "electricite"
         }],
         "value": 440
       }, {
         "constraints": [{
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H3"
+          "value": "h3"
         }, {
           "param": "energie",
           "operator": "equal",
-          "value": "Combustible"
+          "value": "combustible"
         }],
         "value": 690
       }]
     }],
     "factors": [{
       "name": "Nombre de fenêtres isolantes posées",
-      "param": "nombre"
+      "param": "facteur_n"
     }],
     "terms": []
   },

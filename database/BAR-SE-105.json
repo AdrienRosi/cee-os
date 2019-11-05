@@ -11,7 +11,7 @@
         "constraints": [{
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H1"
+          "value": "h1"
         }, {
           "param": "duree_garantie",
           "operator": "equal",
@@ -22,7 +22,7 @@
         "constraints": [{
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H1"
+          "value": "h1"
         }, {
           "param": "duree_garantie",
           "operator": "equal",
@@ -33,7 +33,7 @@
         "constraints": [{
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H1"
+          "value": "h1"
         }, {
           "param": "duree_garantie",
           "operator": "equal",
@@ -44,7 +44,7 @@
         "constraints": [{
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H1"
+          "value": "h1"
         }, {
           "param": "duree_garantie",
           "operator": "equal",
@@ -55,7 +55,7 @@
         "constraints": [{
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H1"
+          "value": "h1"
         }, {
           "param": "duree_garantie",
           "operator": "equal",
@@ -66,7 +66,7 @@
         "constraints": [{
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H1"
+          "value": "h1"
         }, {
           "param": "duree_garantie",
           "operator": "equal",
@@ -77,7 +77,7 @@
         "constraints": [{
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H1"
+          "value": "h1"
         }, {
           "param": "duree_garantie",
           "operator": "equal",
@@ -88,7 +88,7 @@
         "constraints": [{
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H1"
+          "value": "h1"
         }, {
           "param": "duree_garantie",
           "operator": "equal",
@@ -99,7 +99,7 @@
         "constraints": [{
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H1"
+          "value": "h1"
         }, {
           "param": "duree_garantie",
           "operator": "greaterThanOrEqual",
@@ -110,7 +110,7 @@
         "constraints": [{
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H2"
+          "value": "h2"
         }, {
           "param": "duree_garantie",
           "operator": "equal",
@@ -121,7 +121,7 @@
         "constraints": [{
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H2"
+          "value": "h2"
         }, {
           "param": "duree_garantie",
           "operator": "equal",
@@ -132,7 +132,7 @@
         "constraints": [{
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H2"
+          "value": "h2"
         }, {
           "param": "duree_garantie",
           "operator": "equal",
@@ -143,7 +143,7 @@
         "constraints": [{
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H2"
+          "value": "h2"
         }, {
           "param": "duree_garantie",
           "operator": "equal",
@@ -154,7 +154,7 @@
         "constraints": [{
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H2"
+          "value": "h2"
         }, {
           "param": "duree_garantie",
           "operator": "equal",
@@ -165,7 +165,7 @@
         "constraints": [{
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H2"
+          "value": "h2"
         }, {
           "param": "duree_garantie",
           "operator": "equal",
@@ -176,7 +176,7 @@
         "constraints": [{
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H2"
+          "value": "h2"
         }, {
           "param": "duree_garantie",
           "operator": "equal",
@@ -187,7 +187,7 @@
         "constraints": [{
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H2"
+          "value": "h2"
         }, {
           "param": "duree_garantie",
           "operator": "equal",
@@ -198,7 +198,7 @@
         "constraints": [{
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H2"
+          "value": "h2"
         }, {
           "param": "duree_garantie",
           "operator": "greaterThanOrEqual",
@@ -209,7 +209,7 @@
         "constraints": [{
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H3"
+          "value": "h3"
         }, {
           "param": "duree_garantie",
           "operator": "equal",
@@ -220,7 +220,7 @@
         "constraints": [{
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H3"
+          "value": "h3"
         }, {
           "param": "duree_garantie",
           "operator": "equal",
@@ -231,7 +231,7 @@
         "constraints": [{
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H3"
+          "value": "h3"
         }, {
           "param": "duree_garantie",
           "operator": "equal",
@@ -242,7 +242,7 @@
         "constraints": [{
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H3"
+          "value": "h3"
         }, {
           "param": "duree_garantie",
           "operator": "equal",
@@ -253,7 +253,7 @@
         "constraints": [{
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H3"
+          "value": "h3"
         }, {
           "param": "duree_garantie",
           "operator": "equal",
@@ -264,7 +264,7 @@
         "constraints": [{
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H3"
+          "value": "h3"
         }, {
           "param": "duree_garantie",
           "operator": "equal",
@@ -275,7 +275,7 @@
         "constraints": [{
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H3"
+          "value": "h3"
         }, {
           "param": "duree_garantie",
           "operator": "equal",
@@ -286,7 +286,7 @@
         "constraints": [{
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H3"
+          "value": "h3"
         }, {
           "param": "duree_garantie",
           "operator": "equal",
@@ -297,7 +297,7 @@
         "constraints": [{
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H3"
+          "value": "h3"
         }, {
           "param": "duree_garantie",
           "operator": "greaterThanOrEqual",
@@ -308,7 +308,7 @@
     }],
     "factors": [{
       "name": "Nombre d'appartements",
-      "param": "nombre"
+      "param": "facteur_n"
     }],
     "terms": []
   },

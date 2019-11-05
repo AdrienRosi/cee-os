@@ -11,273 +11,273 @@
         "constraints": [{
           "param": "type_batiment",
           "operator": "equal",
-          "value": "Bâtiment collectif"
+          "value": "batiment collectif"
         }, {
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H1"
+          "value": "h1"
         }, {
           "param": "energie",
           "operator": "equal",
-          "value": "Électricité"
+          "value": "electricite"
         }],
         "value": 18000
       }, {
         "constraints": [{
           "param": "type_batiment",
           "operator": "equal",
-          "value": "Bâtiment collectif"
+          "value": "batiment collectif"
         }, {
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H1"
+          "value": "h1"
         }, {
           "param": "energie",
           "operator": "equal",
-          "value": "Combustible"
+          "value": "combustible"
         }],
         "value": 27500
       }, {
         "constraints": [{
           "param": "type_batiment",
           "operator": "equal",
-          "value": "Bâtiment collectif"
+          "value": "batiment collectif"
         }, {
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H2"
+          "value": "h2"
         }, {
           "param": "energie",
           "operator": "equal",
-          "value": "Électricité"
+          "value": "electricite"
         }],
         "value": 14700
       }, {
         "constraints": [{
           "param": "type_batiment",
           "operator": "equal",
-          "value": "Bâtiment collectif"
+          "value": "batiment collectif"
         }, {
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H2"
+          "value": "h2"
         }, {
           "param": "energie",
           "operator": "equal",
-          "value": "Combustible"
+          "value": "combustible"
         }],
         "value": 22500
       }, {
         "constraints": [{
           "param": "type_batiment",
           "operator": "equal",
-          "value": "Bâtiment collectif"
+          "value": "batiment collectif"
         }, {
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H3"
+          "value": "h3"
         }, {
           "param": "energie",
           "operator": "equal",
-          "value": "Électricité"
+          "value": "electricite"
         }],
         "value": 9800
       }, {
         "constraints": [{
           "param": "type_batiment",
           "operator": "equal",
-          "value": "Bâtiment collectif"
+          "value": "batiment collectif"
         }, {
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H3"
+          "value": "h3"
         }, {
           "param": "energie",
           "operator": "equal",
-          "value": "Combustible"
+          "value": "combustible"
         }],
         "value": 15000
       }, {
         "constraints": [{
           "param": "type_batiment",
           "operator": "equal",
-          "value": "Maison individuelle"
+          "value": "maison individuelle"
         }, {
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H1"
+          "value": "h1"
         }, {
           "param": "energie",
           "operator": "equal",
-          "value": "Électricité"
+          "value": "electricite"
         }],
         "value": 27400
       }, {
         "constraints": [{
           "param": "type_batiment",
           "operator": "equal",
-          "value": "Maison individuelle"
+          "value": "maison individuelle"
         }, {
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H1"
+          "value": "h1"
         }, {
           "param": "energie",
           "operator": "equal",
-          "value": "Combustible"
+          "value": "combustible"
         }],
         "value": 42900
       }, {
         "constraints": [{
           "param": "type_batiment",
           "operator": "equal",
-          "value": "Maison individuelle"
+          "value": "maison individuelle"
         }, {
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H2"
+          "value": "h2"
         }, {
           "param": "energie",
           "operator": "equal",
-          "value": "Électricité"
+          "value": "electricite"
         }],
         "value": 22400
       }, {
         "constraints": [{
           "param": "type_batiment",
           "operator": "equal",
-          "value": "Maison individuelle"
+          "value": "maison individuelle"
         }, {
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H2"
+          "value": "h2"
         }, {
           "param": "energie",
           "operator": "equal",
-          "value": "Combustible"
+          "value": "combustible"
         }],
         "value": 35100
       }, {
         "constraints": [{
           "param": "type_batiment",
           "operator": "equal",
-          "value": "Maison individuelle"
+          "value": "maison individuelle"
         }, {
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H3"
+          "value": "h3"
         }, {
           "param": "energie",
           "operator": "equal",
-          "value": "Électricité"
+          "value": "electricite"
         }],
         "value": 14900
       }, {
         "constraints": [{
           "param": "type_batiment",
           "operator": "equal",
-          "value": "Maison individuelle"
+          "value": "maison individuelle"
         }, {
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H3"
+          "value": "h3"
         }, {
           "param": "energie",
           "operator": "equal",
-          "value": "Combustible"
+          "value": "combustible"
         }],
         "value": 23400
       }]
     }],
     "factors": [{
       "name": "Nombre d'appartements",
-      "param": "nombre",
+      "param": "facteur_n",
       "constraints": [{
         "param": "type_batiment",
         "operator": "equal",
-        "value": "Bâtiment collectif"
+        "value": "batiment collectif"
       }, {
         "name": "Facteur correctif selon le type d'installation",
         "values": [{
           "constraints": [{
             "param": "type_vmc",
             "operator": "equal",
-            "value": "VMC type A"
+            "value": "type a"
           }, {
             "param": "type_caisson",
             "operator": "equal",
-            "value": "Basse consommation"
+            "value": "basse consommation"
           }],
           "value": 0.9
         }, {
           "constraints": [{
             "param": "type_vmc",
             "operator": "equal",
-            "value": "VMC type A"
+            "value": "type a"
           }, {
             "param": "type_caisson",
             "operator": "equal",
-            "value": "Standard"
+            "value": "standard"
           }, {
             "param": "type_batiment",
             "operator": "equal",
-            "value": "Bâtiment collectif"
+            "value": "batiment collectif"
           }],
           "value": 0.85
         }, {
           "constraints": [{
             "param": "type_vmc",
             "operator": "equal",
-            "value": "VMC type A"
+            "value": "type a"
           }, {
             "param": "type_caisson",
             "operator": "equal",
-            "value": "Standard"
+            "value": "standard"
           }, {
             "param": "type_batiment",
             "operator": "equal",
-            "value": "Maison individuelle"
+            "value": "maison individuelle"
           }],
           "value": 0
         }, {
           "constraints": [{
             "param": "type_vmc",
             "operator": "equal",
-            "value": "VMC type B"
+            "value": "type b"
           }, {
             "param": "type_caisson",
             "operator": "equal",
-            "value": "Basse consommation"
+            "value": "basse consommation"
           }],
           "value": 1
         }, {
           "constraints": [{
             "param": "type_vmc",
             "operator": "equal",
-            "value": "VMC type B"
+            "value": "type b"
           }, {
             "param": "type_caisson",
             "operator": "equal",
-            "value": "Standard"
+            "value": "standard"
           }, {
             "param": "type_batiment",
             "operator": "equal",
-            "value": "Bâtiment collectif"
+            "value": "batiment collectif"
           }],
           "value": 0.95
         }, {
           "constraints": [{
             "param": "type_vmc",
             "operator": "equal",
-            "value": "VMC type B"
+            "value": "type b"
           }, {
             "param": "type_caisson",
             "operator": "equal",
-            "value": "Standard"
+            "value": "standard"
           }, {
             "param": "type_batiment",
             "operator": "equal",
-            "value": "Maison individuelle"
+            "value": "maison individuelle"
           }],
           "value": 0
         }]
@@ -286,7 +286,7 @@
         "constraints": [{
           "param": "type_batiment",
           "operator": "equal",
-          "value": "Maison individuelle"
+          "value": "maison individuelle"
         }],
         "values": [{
           "contraints": [{

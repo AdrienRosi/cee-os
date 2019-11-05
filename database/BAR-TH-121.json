@@ -13,7 +13,7 @@
     }],
     "factors": [{
       "name": "Nombre d'appartements",
-      "param": "nombre"
+      "param": "facteur_n"
     }],
     "terms": []
   },

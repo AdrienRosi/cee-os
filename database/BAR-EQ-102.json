@@ -11,21 +11,21 @@
         "constraints": [{
           "param": "classe",
           "operator": "equal",
-          "value": "A++"
+          "value": "a++"
         }],
         "value": 190
       }, {
         "constraints": [{
           "param": "classe",
           "operator": "equal",
-          "value": "A+++"
+          "value": "a+++"
         }],
         "value": 350
       }]
     }],
     "factors": [{
       "name": "Nombre d'appareils",
-      "param": "nombre"
+      "param": "facteur_n"
     }],
     "terms": []
   },

@@ -11,7 +11,7 @@
         "constraints": [{
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H1"
+          "value": "h1"
         }, {
           "param": "puissance",
           "operator": "lessThanOrEqual",
@@ -22,7 +22,7 @@
         "constraints": [{
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H2"
+          "value": "h2"
         }, {
           "param": "puissance",
           "operator": "lessThanOrEqual",
@@ -33,7 +33,7 @@
         "constraints": [{
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H3"
+          "value": "h3"
         }, {
           "param": "puissance",
           "operator": "lessThanOrEqual",
@@ -44,7 +44,7 @@
         "constraints": [{
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H1"
+          "value": "h1"
         }, {
           "param": "puissance",
           "operator": "greaterThan",
@@ -55,7 +55,7 @@
         "constraints": [{
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H2"
+          "value": "h2"
         }, {
           "param": "puissance",
           "operator": "greaterThan",
@@ -66,7 +66,7 @@
         "constraints": [{
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H3"
+          "value": "h3"
         }, {
           "param": "puissance",
           "operator": "greaterThan",
@@ -77,10 +77,10 @@
     }],
     "factors": [{
       "name": "Nombre d'appartement",
-      "param": "nombre"
+      "param": "facteur_n"
     }, {
       "name": "Coefficient R",
-      "param": "r"
+      "param": "facteur_r"
     }],
     "terms": []
   },

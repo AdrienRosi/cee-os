@@ -13,10 +13,10 @@
     }],
     "factors": [{
       "name": "Surface habitable (m²)",
-      "param": "factor_s"
+      "param": "facteur_s"
     }, {
       "name": "Différence entre la consommation conventionnelle initiale et la consommation conventionnelle du projet (kWh)",
-      "param": "factor_cef"
+      "param": "facteur_cef"
     }],
     "terms": []
   },

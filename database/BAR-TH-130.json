@@ -13,10 +13,10 @@
     }],
     "factors": [{
       "name": "Consommation conventionnelle d'énergie maximale déduite de la consommation conventionnelle d'énergie du bâtiment",
-      "param": "cef"
+      "param": "facteur_cef"
     }, {
       "name": "Surface thermique",
-      "param": "surface"
+      "param": "facteur_s"
     }],
     "terms": []
   },

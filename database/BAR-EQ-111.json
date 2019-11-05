@@ -40,7 +40,7 @@
     }],
     "factors": [{
       "name": "Nombre de lampes",
-      "param": "nombre"
+      "param": "facteur_n"
     }],
     "terms": []
   },

@@ -11,31 +11,31 @@
         "constraints": [{
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H1"
+          "value": "h1"
         }],
         "value": 16300
       }, {
         "constraints": [{
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H2"
+          "value": "h2"
         }],
         "value": 14000
       }, {
         "constraints": [{
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H3"
+          "value": "h3"
         }],
         "value": 10200
       }]
     }],
     "factors": [{
       "name": "Nombre d'appartements",
-      "param": "nombre"
+      "param": "facteur_n"
     }, {
       "name": "Facteur R",
-      "param": "r"
+      "param": "facteur_r"
     }],
     "terms": []
   },

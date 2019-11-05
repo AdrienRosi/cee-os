@@ -6,26 +6,26 @@
   "content": "",
   "amount": {
     "bases": [{
-      "name": "",
+      "name": "Montant en kWh cumac par m² de toiture protégée",
       "values": [{
         "constraints": [{
           "param": "type_batiment",
           "operator": "equal",
-          "value": "Maison individuelle"
+          "value": "maison individuelle"
         }],
         "value": 400
       }, {
         "constraints": [{
           "param": "type_batiment",
           "operator": "equal",
-          "value": "Bâtiment collectif"
+          "value": "batiment collectif"
         }],
         "value": 520
       }]
     }],
     "factors": [{
       "name": "Surface de toiture protégée (m²)",
-      "param": "surface"
+      "param": "facteur_s"
     }],
     "terms": []
   },

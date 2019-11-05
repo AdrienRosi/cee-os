@@ -11,21 +11,21 @@
         "constraints": [{
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H1"
+          "value": "h1"
         }],
         "value": 21500
       }, {
         "constraints": [{
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H2"
+          "value": "h2"
         }],
         "value": 24100
       }, {
         "constraints": [{
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H3"
+          "value": "h3"
         }],
         "value": 27600
       }]

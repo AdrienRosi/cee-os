@@ -15,7 +15,7 @@
         }, {
           "param": "type_logement",
           "operator": "equal",
-          "value": "Logement existant"
+          "value": "existant"
         }],
         "value": 6100
       }, {
@@ -26,7 +26,7 @@
         }, {
           "param": "type_logement",
           "operator": "equal",
-          "value": "Logement existant"
+          "value": "existant"
         }],
         "value": 6100
       }, {
@@ -37,7 +37,7 @@
         }, {
           "param": "type_logement",
           "operator": "equal",
-          "value": "Logement existant"
+          "value": "existant"
         }],
         "value": 6100
       }, {
@@ -48,7 +48,7 @@
         }, {
           "param": "type_logement",
           "operator": "equal",
-          "value": "Logement existant"
+          "value": "existant"
         }],
         "value": 4600
       }, {
@@ -59,7 +59,7 @@
         }, {
           "param": "type_logement",
           "operator": "equal",
-          "value": "Logement existant"
+          "value": "existant"
         }],
         "value": 5500
       }, {
@@ -70,7 +70,7 @@
         }, {
           "param": "type_logement",
           "operator": "equal",
-          "value": "Logement neuf"
+          "value": "neuf"
         }],
         "value": 3100
       }, {
@@ -81,7 +81,7 @@
         }, {
           "param": "type_logement",
           "operator": "equal",
-          "value": "Logement neuf"
+          "value": "neuf"
         }],
         "value": 3100
       }, {
@@ -92,7 +92,7 @@
         }, {
           "param": "type_logement",
           "operator": "equal",
-          "value": "Logement neuf"
+          "value": "neuf"
         }],
         "value": 3100
       }, {
@@ -103,7 +103,7 @@
         }, {
           "param": "type_logement",
           "operator": "equal",
-          "value": "Logement neuf"
+          "value": "neuf"
         }],
         "value": 2300
       }, {
@@ -114,14 +114,14 @@
         }, {
           "param": "type_logement",
           "operator": "equal",
-          "value": "Logement neuf"
+          "value": "neuf"
         }],
         "value": 5500
       }]
     }],
     "factors": [{
       "name": "Surface de capteurs posés (m²)",
-      "param": "surface"
+      "param": "facteur_s"
     }],
     "terms": []
   },

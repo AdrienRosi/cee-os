@@ -11,14 +11,14 @@
         "constraints": [{
           "param": "type_batiment",
           "operator": "equal",
-          "value": "Maison individuelle"
+          "value": "maison individuelle"
         }],
         "value": 15600
       }, {
         "constraints": [{
           "param": "type_batiment",
           "operator": "equal",
-          "value": "Appartement"
+          "value": "appartement"
         }],
         "value": 11900
       }]

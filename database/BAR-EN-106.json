@@ -11,51 +11,51 @@
         "constraints": [{
           "param": "type_batiment",
           "operator": "equal",
-          "value": "Maison individuelle"
+          "value": "maison individuelle"
         }, {
           "param": "type_logement",
           "operator": "equal",
-          "value": "Logement existant"
+          "value": "existant"
         }],
         "value": 320
       }, {
         "constraints": [{
           "param": "type_batiment",
           "operator": "equal",
-          "value": "Maison individuelle"
+          "value": "maison individuelle"
         }, {
           "param": "type_logement",
           "operator": "equal",
-          "value": "Logement neuf"
+          "value": "neuf"
         }],
         "value": 210
       }, {
         "constraints": [{
           "param": "type_batiment",
           "operator": "equal",
-          "value": "Bâtiment collectif"
+          "value": "batiment collectif"
         }, {
           "param": "type_logement",
           "operator": "equal",
-          "value": "Logement existant"
+          "value": "existant"
         }],
         "value": 380
       }, {
         "constraints": [{
           "param": "type_batiment",
           "operator": "equal",
-          "value": "Bâtiment collectif"
+          "value": "batiment collectif"
         }, {
           "param": "type_logement",
           "operator": "equal",
-          "value": "Logement neuf"
+          "value": "neuf"
         }],
         "value": 250
       }]
     }],
     "factors": [{
       "name": "Surface d'isolant (m²)",
-      "param": "surface"
+      "param": "facteur_s"
     }],
     "terms": []
   },

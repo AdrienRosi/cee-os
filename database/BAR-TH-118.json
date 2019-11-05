@@ -11,97 +11,97 @@
         "constraints": [{
           "param": "type_batiment",
           "operator": "equal",
-          "value": "Maison individuelle"
+          "value": "maison individuelle"
         }, {
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H1"
+          "value": "h1"
         }, {
           "param": "energie",
           "operator": "equal",
-          "value": "Électricité"
+          "value": "electricite"
         }],
         "value": 11600
       }, {
         "constraints": [{
           "param": "type_batiment",
           "operator": "equal",
-          "value": "Maison individuelle"
+          "value": "maison individuelle"
         }, {
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H1"
+          "value": "h1"
         }, {
           "param": "energie",
           "operator": "equal",
-          "value": "Combustible"
+          "value": "combustible"
         }],
         "value": 14200
       }, {
         "constraints": [{
           "param": "type_batiment",
           "operator": "equal",
-          "value": "Maison individuelle"
+          "value": "maison individuelle"
         }, {
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H2"
+          "value": "h2"
         }, {
           "param": "energie",
           "operator": "equal",
-          "value": "Électricité"
+          "value": "electricite"
         }],
         "value": 9500
       }, {
         "constraints": [{
           "param": "type_batiment",
           "operator": "equal",
-          "value": "Maison individuelle"
+          "value": "maison individuelle"
         }, {
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H2"
+          "value": "h2"
         }, {
           "param": "energie",
           "operator": "equal",
-          "value": "Combustible"
+          "value": "combustible"
         }],
         "value": 11600
       }, {
         "constraints": [{
           "param": "type_batiment",
           "operator": "equal",
-          "value": "Maison individuelle"
+          "value": "maison individuelle"
         }, {
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H3"
+          "value": "h3"
         }, {
           "param": "energie",
           "operator": "equal",
-          "value": "Électricité"
+          "value": "electricite"
         }],
         "value": 6300
       }, {
         "constraints": [{
           "param": "type_batiment",
           "operator": "equal",
-          "value": "Maison individuelle"
+          "value": "maison individuelle"
         }, {
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H3"
+          "value": "h3"
         }, {
           "param": "energie",
           "operator": "equal",
-          "value": "Combustible"
+          "value": "combustible"
         }],
         "value": 7700
       }, {
         "constraints": [{
           "param": "type_batiment",
           "operator": "equal",
-          "value": "Appartement"
+          "value": "appartement"
         }, {
           "param": "type_chauffage",
           "operator": "equal",
@@ -109,18 +109,18 @@
         }, {
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H1"
+          "value": "h1"
         }, {
           "param": "energie",
           "operator": "equal",
-          "value": "Électricité"
+          "value": "electricite"
         }],
         "value": 4300
       }, {
         "constraints": [{
           "param": "type_batiment",
           "operator": "equal",
-          "value": "Appartement"
+          "value": "appartement"
         }, {
           "param": "type_chauffage",
           "operator": "equal",
@@ -128,18 +128,18 @@
         }, {
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H1"
+          "value": "h1"
         }, {
           "param": "energie",
           "operator": "equal",
-          "value": "Combustible"
+          "value": "combustible"
         }],
         "value": 6600
       }, {
         "constraints": [{
           "param": "type_batiment",
           "operator": "equal",
-          "value": "Appartement"
+          "value": "appartement"
         }, {
           "param": "type_chauffage",
           "operator": "equal",
@@ -147,18 +147,18 @@
         }, {
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H2"
+          "value": "h2"
         }, {
           "param": "energie",
           "operator": "equal",
-          "value": "Électricité"
+          "value": "electricite"
         }],
         "value": 3500
       }, {
         "constraints": [{
           "param": "type_batiment",
           "operator": "equal",
-          "value": "Appartement"
+          "value": "appartement"
         }, {
           "param": "type_chauffage",
           "operator": "equal",
@@ -166,18 +166,18 @@
         }, {
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H2"
+          "value": "h2"
         }, {
           "param": "energie",
           "operator": "equal",
-          "value": "Combustible"
+          "value": "combustible"
         }],
         "value": 5400
       }, {
         "constraints": [{
           "param": "type_batiment",
           "operator": "equal",
-          "value": "Appartement"
+          "value": "appartement"
         }, {
           "param": "type_chauffage",
           "operator": "equal",
@@ -185,18 +185,18 @@
         }, {
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H3"
+          "value": "h3"
         }, {
           "param": "energie",
           "operator": "equal",
-          "value": "Électricité"
+          "value": "electricite"
         }],
         "value": 2300
       }, {
         "constraints": [{
           "param": "type_batiment",
           "operator": "equal",
-          "value": "Appartement"
+          "value": "appartement"
         }, {
           "param": "type_chauffage",
           "operator": "equal",
@@ -204,18 +204,18 @@
         }, {
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H3"
+          "value": "h3"
         }, {
           "param": "energie",
           "operator": "equal",
-          "value": "Combustible"
+          "value": "combustible"
         }],
         "value": 3600
       }, {
         "constraints": [{
           "param": "type_batiment",
           "operator": "equal",
-          "value": "Appartement"
+          "value": "appartement"
         }, {
           "param": "type_chauffage",
           "operator": "equal",
@@ -223,18 +223,18 @@
         }, {
           "param": "energie",
           "operator": "equal",
-          "value": "Combustible"
+          "value": "combustible"
         }, {
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H1"
+          "value": "h1"
         }],
         "value": 9100
       }, {
         "constraints": [{
           "param": "type_batiment",
           "operator": "equal",
-          "value": "Appartement"
+          "value": "appartement"
         }, {
           "param": "type_chauffage",
           "operator": "equal",
@@ -242,18 +242,18 @@
         }, {
           "param": "energie",
           "operator": "equal",
-          "value": "Combustible"
+          "value": "combustible"
         }, {
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H2"
+          "value": "h2"
         }],
         "value": 7400
       }, {
         "constraints": [{
           "param": "type_batiment",
           "operator": "equal",
-          "value": "Appartement"
+          "value": "appartement"
         }, {
           "param": "type_chauffage",
           "operator": "equal",
@@ -261,11 +261,11 @@
         }, {
           "param": "energie",
           "operator": "equal",
-          "value": "Combustible"
+          "value": "combustible"
         }, {
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H3"
+          "value": "h3"
         }],
         "value": 4900
       }]
@@ -276,7 +276,7 @@
         "contraints": [{
           "param": "type_batiment",
           "operator": "equal",
-          "value": "Maison individuelle"
+          "value": "maison individuelle"
         }, {
           "param": "surface_chauffee",
           "operator": "lessThan",
@@ -287,7 +287,7 @@
         "contraints": [{
           "param": "type_batiment",
           "operator": "equal",
-          "value": "Maison individuelle"
+          "value": "maison individuelle"
         }, {
           "param": "surface_chauffee",
           "operator": "greaterThanOrEqual",
@@ -302,7 +302,7 @@
         "contraints": [{
           "param": "type_batiment",
           "operator": "equal",
-          "value": "Maison individuelle"
+          "value": "maison individuelle"
         }, {
           "param": "surface_chauffee",
           "operator": "greaterThanOrEqual",
@@ -317,7 +317,7 @@
         "contraints": [{
           "param": "type_batiment",
           "operator": "equal",
-          "value": "Maison individuelle"
+          "value": "maison individuelle"
         }, {
           "param": "surface_chauffee",
           "operator": "greaterThanOrEqual",
@@ -332,7 +332,7 @@
         "contraints": [{
           "param": "type_batiment",
           "operator": "equal",
-          "value": "Maison individuelle"
+          "value": "maison individuelle"
         }, {
           "param": "surface_chauffee",
           "operator": "greaterThanOrEqual",
@@ -347,7 +347,7 @@
         "contraints": [{
           "param": "type_batiment",
           "operator": "equal",
-          "value": "Maison individuelle"
+          "value": "maison individuelle"
         }, {
           "param": "surface_chauffee",
           "operator": "greaterThanOrEqual",
@@ -362,7 +362,7 @@
         "contraints": [{
           "param": "type_batiment",
           "operator": "equal",
-          "value": "Maison individuelle"
+          "value": "maison individuelle"
         }, {
           "param": "surface_chauffee",
           "operator": "greaterThan",
@@ -372,11 +372,11 @@
       }]
     }, {
       "name": "Nombre d'appartements",
-      "param": "nombre",
+      "param": "facteur_n",
       "constraints": [{
         "param": "type_batiment",
         "operator": "equal",
-        "value": "Appartement"
+        "value": "appartement"
       }, {
         "param": "type_chauffage",
         "operator": "equal",
@@ -384,7 +384,7 @@
       }, {
         "param": "energie",
         "operator": "equal",
-        "value": "Combustible"
+        "value": "combustible"
       }]
     }],
     "terms": []

@@ -55,7 +55,7 @@
     }],
     "factors": [{
       "name": "Nombre de luminaires installés",
-      "param": "nombre"
+      "param": "facteur_n"
     }],
     "terms": []
   },

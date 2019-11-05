@@ -13,7 +13,7 @@
     }],
     "factors": [{
       "name": "Puissance nominale du moteur de la pompe (kW)",
-      "param": "factor_p"
+      "param": "facteur_p"
     }],
     "terms": []
   },

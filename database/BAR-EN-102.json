@@ -11,73 +11,73 @@
         "constraints": [{
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H1"
+          "value": "h1"
         }, {
           "param": "energie",
           "operator": "equal",
-          "value": "Électricité"
+          "value": "electricite"
         }],
         "value": 2400
       }, {
         "constraints": [{
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H1"
+          "value": "h1"
         }, {
           "param": "energie",
           "operator": "equal",
-          "value": "Combustible"
+          "value": "combustible"
         }],
         "value": 3800
       }, {
         "constraints": [{
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H2"
+          "value": "h2"
         }, {
           "param": "energie",
           "operator": "equal",
-          "value": "Électricité"
+          "value": "electricite"
         }],
         "value": 2000
       }, {
         "constraints": [{
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H2"
+          "value": "h2"
         }, {
           "param": "energie",
           "operator": "equal",
-          "value": "Combustible"
+          "value": "combustible"
         }],
         "value": 3100
       }, {
         "constraints": [{
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H3"
+          "value": "h3"
         }, {
           "param": "energie",
           "operator": "equal",
-          "value": "Électricité"
+          "value": "electricite"
         }],
         "value": 1300
       }, {
         "constraints": [{
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H3"
+          "value": "h3"
         }, {
           "param": "energie",
           "operator": "equal",
-          "value": "Combustible"
+          "value": "combustible"
         }],
         "value": 2100
       }]
     }],
     "factors": [{
       "name": "Surface d'isolant (m²)",
-      "param": "surface"
+      "param": "facteur_s"
     }],
     "terms": []
   },

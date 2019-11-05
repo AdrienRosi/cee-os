@@ -13,10 +13,10 @@
     }],
     "factors": [{
       "name": "Besoin annuel en eau chaude sanitaire à produire par l'énergie solaire (kWh/an)",
-      "param": "b"
+      "param": "facteur_b"
     }, {
       "name": "Taux de couverture du chauffe-eau solaire collectif (%)",
-      "param": "t"
+      "param": "facteur_t"
     }],
     "terms": []
   },

@@ -11,7 +11,7 @@
         "constraints": [{
           "param": "type_batiment",
           "operator": "equal",
-          "value": "Appartement"
+          "value": "appartement"
         }, {
           "param": "scop",
           "operator": "greaterThanOrEqual",
@@ -19,14 +19,14 @@
         }, {
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H1"
+          "value": "h1"
         }],
         "value": 21300
       }, {
         "constraints": [{
           "param": "type_batiment",
           "operator": "equal",
-          "value": "Appartement"
+          "value": "appartement"
         }, {
           "param": "scop",
           "operator": "greaterThanOrEqual",
@@ -34,14 +34,14 @@
         }, {
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H2"
+          "value": "h2"
         }],
         "value": 17400
       }, {
         "constraints": [{
           "param": "type_batiment",
           "operator": "equal",
-          "value": "Appartement"
+          "value": "appartement"
         }, {
           "param": "scop",
           "operator": "greaterThanOrEqual",
@@ -49,14 +49,14 @@
         }, {
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H3"
+          "value": "h3"
         }],
         "value": 11600
       }, {
         "constraints": [{
           "param": "type_batiment",
           "operator": "equal",
-          "value": "Maison individuelle"
+          "value": "maison individuelle"
         }, {
           "param": "scop",
           "operator": "greaterThanOrEqual",
@@ -68,14 +68,14 @@
         }, {
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H1"
+          "value": "h1"
         }],
         "value": 77900
       }, {
         "constraints": [{
           "param": "type_batiment",
           "operator": "equal",
-          "value": "Maison individuelle"
+          "value": "maison individuelle"
         }, {
           "param": "scop",
           "operator": "greaterThanOrEqual",
@@ -87,14 +87,14 @@
         }, {
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H2"
+          "value": "h2"
         }],
         "value": 63700
       }, {
         "constraints": [{
           "param": "type_batiment",
           "operator": "equal",
-          "value": "Maison individuelle"
+          "value": "maison individuelle"
         }, {
           "param": "scop",
           "operator": "greaterThanOrEqual",
@@ -106,14 +106,14 @@
         }, {
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H3"
+          "value": "h3"
         }],
         "value": 42500
       }, {
         "constraints": [{
           "param": "type_batiment",
           "operator": "equal",
-          "value": "Maison individuelle"
+          "value": "maison individuelle"
         }, {
           "param": "scop",
           "operator": "greaterThanOrEqual",
@@ -121,14 +121,14 @@
         }, {
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H1"
+          "value": "h1"
         }],
         "value": 80200
       }, {
         "constraints": [{
           "param": "type_batiment",
           "operator": "equal",
-          "value": "Maison individuelle"
+          "value": "maison individuelle"
         }, {
           "param": "scop",
           "operator": "greaterThanOrEqual",
@@ -136,14 +136,14 @@
         }, {
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H2"
+          "value": "h2"
         }],
         "value": 65600
       }, {
         "constraints": [{
           "param": "type_batiment",
           "operator": "equal",
-          "value": "Maison individuelle"
+          "value": "maison individuelle"
         }, {
           "param": "scop",
           "operator": "greaterThanOrEqual",
@@ -151,7 +151,7 @@
         }, {
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H3"
+          "value": "h3"
         }],
         "value": 43700
       }]
@@ -162,7 +162,7 @@
         "contraints": [{
           "param": "type_batiment",
           "operator": "equal",
-          "value": "Maison individuelle"
+          "value": "maison individuelle"
         }, {
           "param": "surface_chaufee",
           "operator": "lessThan",
@@ -173,7 +173,7 @@
         "contraints": [{
           "param": "type_batiment",
           "operator": "equal",
-          "value": "Maison individuelle"
+          "value": "maison individuelle"
         }, {
           "param": "surface_chaufee",
           "operator": "greaterThanOrEqual",
@@ -188,7 +188,7 @@
         "contraints": [{
           "param": "type_batiment",
           "operator": "equal",
-          "value": "Maison individuelle"
+          "value": "maison individuelle"
         }, {
           "param": "surface_chaufee",
           "operator": "greaterThanOrEqual",
@@ -203,7 +203,7 @@
         "contraints": [{
           "param": "type_batiment",
           "operator": "equal",
-          "value": "Maison individuelle"
+          "value": "maison individuelle"
         }, {
           "param": "surface_chaufee",
           "operator": "greaterThanOrEqual",
@@ -218,7 +218,7 @@
         "contraints": [{
           "param": "type_batiment",
           "operator": "equal",
-          "value": "Maison individuelle"
+          "value": "maison individuelle"
         }, {
           "param": "surface_chaufee",
           "operator": "greaterThanOrEqual",
@@ -233,7 +233,7 @@
         "contraints": [{
           "param": "type_batiment",
           "operator": "equal",
-          "value": "Maison individuelle"
+          "value": "maison individuelle"
         }, {
           "param": "surface_chaufee",
           "operator": "greaterThanOrEqual",
@@ -248,7 +248,7 @@
         "contraints": [{
           "param": "type_batiment",
           "operator": "equal",
-          "value": "Maison individuelle"
+          "value": "maison individuelle"
         }, {
           "param": "surface_chaufee",
           "operator": "greaterThan",
@@ -259,7 +259,7 @@
         "contraints": [{
           "param": "type_batiment",
           "operator": "equal",
-          "value": "Appartement"
+          "value": "appartement"
         }, {
           "param": "surface_chaufee",
           "operator": "lessThan",
@@ -270,7 +270,7 @@
         "contraints": [{
           "param": "type_batiment",
           "operator": "equal",
-          "value": "Appartement"
+          "value": "appartement"
         }, {
           "param": "surface_chaufee",
           "operator": "greaterThanOrEqual",
@@ -285,7 +285,7 @@
         "contraints": [{
           "param": "type_batiment",
           "operator": "equal",
-          "value": "Appartement"
+          "value": "appartement"
         }, {
           "param": "surface_chaufee",
           "operator": "greaterThanOrEqual",
@@ -300,7 +300,7 @@
         "contraints": [{
           "param": "type_batiment",
           "operator": "equal",
-          "value": "Appartement"
+          "value": "appartement"
         }, {
           "param": "surface_chaufee",
           "operator": "greaterThanOrEqual",
@@ -315,7 +315,7 @@
         "contraints": [{
           "param": "type_batiment",
           "operator": "equal",
-          "value": "Appartement"
+          "value": "appartement"
         }, {
           "param": "surface_chaufee",
           "operator": "greaterThanOrEqual",
@@ -330,7 +330,7 @@
         "contraints": [{
           "param": "type_batiment",
           "operator": "equal",
-          "value": "Appartement"
+          "value": "appartement"
         }, {
           "param": "surface_chaufee",
           "operator": "greaterThanOrEqual",
@@ -345,7 +345,7 @@
         "contraints": [{
           "param": "type_batiment",
           "operator": "equal",
-          "value": "Appartement"
+          "value": "appartement"
         }, {
           "param": "surface_chaufee",
           "operator": "greaterThan",

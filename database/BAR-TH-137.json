@@ -11,84 +11,84 @@
         "constraints": [{
           "param": "type_batiment",
           "operator": "equal",
-          "value": "Bâtiment collectif"
+          "value": "batiment collectif"
         }, {
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H1"
+          "value": "h1"
         }],
         "value": 55500
       }, {
         "constraints": [{
           "param": "type_batiment",
           "operator": "equal",
-          "value": "Bâtiment collectif"
+          "value": "batiment collectif"
         }, {
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H2"
+          "value": "h2"
         }],
         "value": 47900
       }, {
         "constraints": [{
           "param": "type_batiment",
           "operator": "equal",
-          "value": "Bâtiment collectif"
+          "value": "batiment collectif"
         }, {
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H3"
+          "value": "h3"
         }],
         "value": 35600
       }, {
         "constraints": [{
           "param": "type_batiment",
           "operator": "equal",
-          "value": "Maison individuelle"
+          "value": "maison individuelle"
         }, {
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H1"
+          "value": "h1"
         }],
         "value": 96300
       }, {
         "constraints": [{
           "param": "type_batiment",
           "operator": "equal",
-          "value": "Maison individuelle"
+          "value": "maison individuelle"
         }, {
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H2"
+          "value": "h2"
         }],
         "value": 81400
       }, {
         "constraints": [{
           "param": "type_batiment",
           "operator": "equal",
-          "value": "Maison individuelle"
+          "value": "maison individuelle"
         }, {
           "param": "zone_climatique",
           "operator": "equal",
-          "value": "H3"
+          "value": "h3"
         }],
         "value": 58600
       }]
     }],
     "factors": [{
       "name": "Nombre d'appartements raccordés",
-      "param": "nombre",
+      "param": "facteur_n",
       "constraints": [{
         "param": "type_batiment",
         "operator": "equal",
-        "value": "Bâtiment collectif"
+        "value": "batiment collectif"
       }]
     }, {
       "name": "Surface habitable (m²)",
       "constraints": [{
         "param": "type_batiment",
         "operator": "equal",
-        "value": "Maison individuelle"
+        "value": "maison individuelle"
       }],
       "values": [{
         "contraints": [{

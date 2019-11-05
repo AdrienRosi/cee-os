@@ -11,7 +11,7 @@
         "constraints": [{
           "param": "type_batiment",
           "operator": "equal",
-          "value": "Maison individuelle"
+          "value": "maison individuelle"
         }, {
           "param": "puissance",
           "operator": "equal",
@@ -26,7 +26,7 @@
         "constraints": [{
           "param": "type_batiment",
           "operator": "equal",
-          "value": "Maison individuelle"
+          "value": "maison individuelle"
         }, {
           "param": "puissance",
           "operator": "equal",
@@ -34,14 +34,14 @@
         }, {
           "param": "class",
           "operator": "equal",
-          "value": "A+"
+          "value": "a+"
         }],
         "value": 4100
       }, {
         "constraints": [{
           "param": "type_batiment",
           "operator": "equal",
-          "value": "Maison individuelle"
+          "value": "maison individuelle"
         }, {
           "param": "puissance",
           "operator": "equal",
@@ -49,14 +49,14 @@
         }, {
           "param": "class",
           "operator": "equal",
-          "value": "A++"
+          "value": "a++"
         }],
         "value": 5700
       }, {
         "constraints": [{
           "param": "type_batiment",
           "operator": "equal",
-          "value": "Maison individuelle"
+          "value": "maison individuelle"
         }, {
           "param": "puissance",
           "operator": "equal",
@@ -64,14 +64,14 @@
         }, {
           "param": "class",
           "operator": "equal",
-          "value": "A+++"
+          "value": "a+++"
         }],
         "value": 10600
       }, {
         "constraints": [{
           "param": "type_batiment",
           "operator": "equal",
-          "value": "Maison individuelle"
+          "value": "maison individuelle"
         }, {
           "param": "puissance",
           "operator": "equal",
@@ -86,7 +86,7 @@
         "constraints": [{
           "param": "type_batiment",
           "operator": "equal",
-          "value": "Maison individuelle"
+          "value": "maison individuelle"
         }, {
           "param": "puissance",
           "operator": "equal",
@@ -94,14 +94,14 @@
         }, {
           "param": "class",
           "operator": "equal",
-          "value": "A+"
+          "value": "a+"
         }],
         "value": 4800
       }, {
         "constraints": [{
           "param": "type_batiment",
           "operator": "equal",
-          "value": "Maison individuelle"
+          "value": "maison individuelle"
         }, {
           "param": "puissance",
           "operator": "equal",
@@ -109,14 +109,14 @@
         }, {
           "param": "class",
           "operator": "equal",
-          "value": "A++"
+          "value": "a++"
         }],
         "value": 6600
       }, {
         "constraints": [{
           "param": "type_batiment",
           "operator": "equal",
-          "value": "Maison individuelle"
+          "value": "maison individuelle"
         }, {
           "param": "puissance",
           "operator": "equal",
@@ -124,14 +124,14 @@
         }, {
           "param": "class",
           "operator": "equal",
-          "value": "A+++"
+          "value": "a+++"
         }],
         "value": 12020
       }, {
         "constraints": [{
           "param": "type_batiment",
           "operator": "equal",
-          "value": "Appartement"
+          "value": "appartement"
         }, {
           "param": "puissance",
           "operator": "equal",
@@ -146,7 +146,7 @@
         "constraints": [{
           "param": "type_batiment",
           "operator": "equal",
-          "value": "Appartement"
+          "value": "appartement"
         }, {
           "param": "puissance",
           "operator": "equal",
@@ -154,14 +154,14 @@
         }, {
           "param": "class",
           "operator": "equal",
-          "value": "A+"
+          "value": "a+"
         }],
         "value": 2500
       }, {
         "constraints": [{
           "param": "type_batiment",
           "operator": "equal",
-          "value": "Appartement"
+          "value": "appartement"
         }, {
           "param": "puissance",
           "operator": "equal",
@@ -169,14 +169,14 @@
         }, {
           "param": "class",
           "operator": "equal",
-          "value": "A++"
+          "value": "a++"
         }],
         "value": 3400
       }, {
         "constraints": [{
           "param": "type_batiment",
           "operator": "equal",
-          "value": "Appartement"
+          "value": "appartement"
         }, {
           "param": "puissance",
           "operator": "equal",
@@ -184,14 +184,14 @@
         }, {
           "param": "class",
           "operator": "equal",
-          "value": "A+++"
+          "value": "a+++"
         }],
         "value": 6300
       }, {
         "constraints": [{
           "param": "type_batiment",
           "operator": "equal",
-          "value": "Appartement"
+          "value": "appartement"
         }, {
           "param": "puissance",
           "operator": "equal",
@@ -206,7 +206,7 @@
         "constraints": [{
           "param": "type_batiment",
           "operator": "equal",
-          "value": "Appartement"
+          "value": "appartement"
         }, {
           "param": "puissance",
           "operator": "equal",
@@ -214,14 +214,14 @@
         }, {
           "param": "class",
           "operator": "equal",
-          "value": "A+"
+          "value": "a+"
         }],
         "value": 2900
       }, {
         "constraints": [{
           "param": "type_batiment",
           "operator": "equal",
-          "value": "Appartement"
+          "value": "appartement"
         }, {
           "param": "puissance",
           "operator": "equal",
@@ -229,14 +229,14 @@
         }, {
           "param": "class",
           "operator": "equal",
-          "value": "A++"
+          "value": "a++"
         }],
         "value": 4000
       }, {
         "constraints": [{
           "param": "type_batiment",
           "operator": "equal",
-          "value": "Appartement"
+          "value": "appartement"
         }, {
           "param": "puissance",
           "operator": "equal",
@@ -244,7 +244,7 @@
         }, {
           "param": "class",
           "operator": "equal",
-          "value": "A+++"
+          "value": "a+++"
         }],
         "value": 7400
       }]
