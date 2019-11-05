@@ -1,0 +1,40 @@
+{
+  "os": "BAR-TH-163",
+  "link": "http://atee.fr/sites/default/files/bar-th-163.pdf",
+  "name": "Conduit d’évacuation des produits de combustion",
+  "sector": "Bâtiment résidentiel",
+  "content": "",
+  "amount": {
+    "bases": [{
+      "name": "Montant en kWh cumac",
+      "values": [{
+        "constraints": [{
+          "param": "zone_climatique",
+          "operator": "equal",
+          "value": "h1"
+        }],
+        "value": 37600
+      }, {
+        "constraints": [{
+          "param": "zone_climatique",
+          "operator": "equal",
+          "value": "h2"
+        }],
+        "value": 32300
+      }, {
+        "constraints": [{
+          "param": "zone_climatique",
+          "operator": "equal",
+          "value": "h3"
+        }],
+        "value": 24600
+      }]
+    }],
+    "factors": [{
+      "name": "Nomre de chaudières à raccorder au conduit",
+      "param": "facteur_n"
+    }],
+    "terms": []
+  },
+  "appendix": ""
+}
