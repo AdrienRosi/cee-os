@@ -37,7 +37,7 @@ Ce modèle est dupliquer pour les facteurs et les termes, à la différence que 
 ### Les opérateurs de comparaison
 
 | operator | instruction |
-| --- | --- |
+| :---: | :---: |
 | equal | param === value |
 | lessThan | param < value |
 | lessThanOrEqual | param <= value |
@@ -48,52 +48,51 @@ Ce modèle est dupliquer pour les facteurs et les termes, à la différence que 
 
 **type_batiment**
 
-Type de bâtiment
-
-
+| Type de bâtiment |
+| :---: |
 | maison individuelle |
-| appartement         |
-| batiment collectif  |
+| appartement |
+| batiment collectif |
 
 **type_logement**
 
-Type de logement
-
-| neuf     |
+| Type de logement |
+| :---: |
+| neuf |
 | existant |
 
 **energie**
 
-Énergie de chauffage
-
+| Énergie de chauffage |
+| :---: |
 | electricite |
 | combustible |
 
 **zone_climatique**
 
-Zone climatique
-
+| Zone climatique |
+| :---: |
 | h1 |
 | h2 |
 | h3 |
 
 **type_vmc**
 
-Type de VMC
-
+| Type de VMC |
+| :---: |
 | type a |
 | type b |
 
 **type_caisson / type_extracteur**
 
-Type de caisson / Type d'extracteur
-
+| Type de caisson / extracteur |
+| :---: |
 | basse consommation |
-| standard           |
+| standard |
 
 **type_point_singulier**
 
-Type de point singulier
-
+| Type de point singulier |
+| :---: |
 | echangeur a plaque |
-| autre              |
+| autre |
