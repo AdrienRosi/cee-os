@@ -1,4 +1,6 @@
-# Représentation JSON des fiches d'opération standardisée Certificats d'Economies d'Energie
+# JSON CEE
+Ce projet propose une représentation JSON des fiches d'opérations standardisées utilisées dans le cadre du dispositif des Certificats d'Economies d'Energie.
+
 ## Schéma
 
 ### os
@@ -27,7 +29,7 @@ amount = base x factor + term
 Où
 
 base est le volume forfaire de CEE déterminé par l'OS
-factor est le produit des coefficients déterminés par l'OS strictement supérieur à 0
+factor est le produit des coefficients déterminés par l'OS
 term est la somme des termes déterminés par l'OS
 
 #### base
@@ -94,7 +96,7 @@ L'opérateur à appliquer :
 ###### value
 Valeur à comparer
 
-## Tableau de données
+## Standardisation des données
 
 **type_batiment**
 
