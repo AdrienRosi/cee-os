@@ -34,6 +34,15 @@ Par exemple, la fiche BAR-EN-101 fixe trois bases forfaitaires différente selon
 
 Ce modèle est dupliquer pour les facteurs et les termes, à la différence que toutes les valeurs possibles pour lesquels les contraintes sont satisfaites sont retenues, alors qu'une seule base forfataire ne peut être retenue.
 
+### Les opérateurs de comparaison
+
+| operator           | instruction     |
+| equal              | param === value |
+| lessThan           | param < value   |
+| lessThanOrEqual    | param <= value  |
+| greaterThan        | param > value   |
+| greaterThanOrEqual | param >= value  |
+
 ## Données d'entrée
 
 **type_batiment**
