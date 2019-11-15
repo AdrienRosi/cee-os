@@ -46,53 +46,53 @@ Ce modèle est dupliquer pour les facteurs et les termes, à la différence que 
 
 ## Données d'entrée
 
-**type_batiment**
+**Type de bâtiment**
 
-| Type de bâtiment |
+| type_batiment |
 | :---: |
 | maison individuelle |
 | appartement |
 | batiment collectif |
 
-**type_logement**
+**Type de logement**
 
-| Type de logement |
+| type_logement |
 | :---: |
 | neuf |
 | existant |
 
-**energie**
+**Énergie de chauffage**
 
-| Énergie de chauffage |
+| energie |
 | :---: |
 | electricite |
 | combustible |
 
-**zone_climatique**
+**Zone climatique**
 
-| Zone climatique |
+| zone_climatique |
 | :---: |
 | h1 |
 | h2 |
 | h3 |
 
-**type_vmc**
+**Type de VMC**
 
-| Type de VMC |
+| type_vmc |
 | :---: |
 | type a |
 | type b |
 
-**type_caisson / type_extracteur**
+**Type de caisson ou d'extracteur**
 
-| Type de caisson / extracteur |
+| type_caisson / type_extracteur |
 | :---: |
 | basse consommation |
 | standard |
 
-**type_point_singulier**
+**Type de point singulier**
 
-| Type de point singulier |
+| type_point_singulier |
 | :---: |
 | echangeur a plaque |
 | autre |
