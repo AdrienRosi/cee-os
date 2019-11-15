@@ -36,12 +36,13 @@ Ce modèle est dupliquer pour les facteurs et les termes, à la différence que 
 
 ### Les opérateurs de comparaison
 
-| operator           | instruction     |
-| equal              | param === value |
-| lessThan           | param < value   |
-| lessThanOrEqual    | param <= value  |
-| greaterThan        | param > value   |
-| greaterThanOrEqual | param >= value  |
+| operator | instruction |
+| --- | --- |
+| equal | param === value |
+| lessThan | param < value |
+| lessThanOrEqual | param <= value |
+| greaterThan | param > value |
+| greaterThanOrEqual | param >= value |
 
 ## Données d'entrée
 
