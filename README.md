@@ -1,102 +1,40 @@
 # JSON CEE
 Ce projet propose une représentation JSON des fiches d'opérations standardisées utilisées dans le cadre du dispositif des Certificats d'Economies d'Energie.
 
-## Schéma
+Etat de la base de données :
+  - Agriculture
+  - Bâtiment résidentiel => Complète
+  - Bâtiment tertiaire
+  - Industrie
+  - Transport
+  - Réseaux
 
-### os
-Code de l'OS.
+## Modèle
 
-### name
-Nom de l'OS.
+[Modèle d'une fiche OS](model/README.md)
 
-### sector
-Secteur d'application de l'OS.
+## Fonctionnement
 
-### lifetime
-Durée de vie conventionnelle de l'OS.
+### Calcul des volumes
 
-### content (non validé)
-Contenu textuel de la fiche OS.
+Le montant forfaitaire d'une fiche d'opération standardisée est obtenu par application de la formule suivante :
 
-### appendix (non validé)
-Contenu de la partie A de l'attestation sur l'honneur de l'OS.
+amount = base_x * E(factor_1 * factor_2 * factor_3 ...) + E(term_1 + term_2 + term_3 ...)
 
-### amount
-Montant forfaitaire des Certificats d'Economies d'Energie de l'OS. Son calcul est effectué par application de la formule suivante :
+### Contraintes
 
-amount = base x factor + term
+Chaque objet Base, Facteur ou Terme peut se voir appliquer des contraintes permettant de définir les variables admissibles en fonction des données transmises.
 
-Où
+Par exemple, la fiche BAR-EN-101 fixe trois bases forfaitaires différente selon la zone climatique. La représentation JSON équivalente donnera :
+- Trois objet Base avec pour chaque valeur possible, un unique objet Valeur
+- Pour chaque objet Valeur, un objet contrainte :
+  - "zone_climatique" comme paramètre
+  - "equal" comme opérateur de comparaison
+  - "h1", "h2" ou "h3" comme valeur comparative
 
-base est le volume forfaire de CEE déterminé par l'OS
-factor est le produit des coefficients déterminés par l'OS
-term est la somme des termes déterminés par l'OS
+Ce modèle est dupliquer pour les facteurs et les termes, à la différence que toutes les valeurs possibles pour lesquels les contraintes sont satisfaites sont retenues, alors qu'une seule base forfataire ne peut être retenue.
 
-#### base
-Objet représentant le volume forfaitaire de CEE.
-
-##### name
-Nom de la base.
-
-###### values
-cf ci-après.
-
-#### factors
-Tableau d'objets facteur.
-
-##### factor
-Coefficient. Cet objet est ainsi représenté :
-
-###### name
-Nom du coefficient.
-
-###### param
-Nom du paramètre dans le cas d'un coefficient à saisir manuellement.
-
-###### values
-cf ci-après.
-
-#### terms
-Tableau d'objets term.
-
-##### term
-Terme. Cet objet est ainsi représenté :
-
-###### name
-Nom du terme.
-
-###### param
-Nom du paramètre dans le cas d'un terme à saisir manuellement.
-
-###### values
-cf ci-après.
-
-### Variables génériques
-
-#### values
-Tableau des valeurs possibles. Chaque entité du tableau est ainsi représentée :
-
-##### value
-Valeur applicable.
-
-##### constraints
-Tableau des conditions à satisfaire. Chaque entité du tableau est ainsi représentée :
-
-###### param
-Nom du paramètre à comparer
-
-###### operator
-L'opérateur à appliquer : 
-- equalTo
-- lessThan
-- lessThanOrEqual
-- greaterThan
-- greaterThanOrEqual
-
-###### value
-Valeur à comparer
-
-## Standardisation des données
+## Données d'entrée
 
 **type_batiment**
 
